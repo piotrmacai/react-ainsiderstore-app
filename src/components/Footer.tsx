@@ -1,4 +1,4 @@
-import { Sparkles, Github, Twitter, Linkedin, Youtube, Mail } from 'lucide-react';
+import { Github, Twitter, Linkedin, Youtube, Mail } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 export function Footer() {
@@ -10,7 +10,7 @@ export function Footer() {
           <div className="md:col-span-2">
             <Link to="/" className="flex items-center gap-2 mb-4">
               <div className="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center">
-                <Sparkles className="w-5 h-5 text-primary" />
+                <img src="/images/ainsiderlogo.png" alt="Ainsider Logo" className="w-6 h-6 object-contain" />
               </div>
               <span className="font-display font-bold text-xl">
                 <span className="gradient-text">Ainsider</span>

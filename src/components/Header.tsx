@@ -1,5 +1,5 @@
 import { Link, useLocation } from 'react-router-dom';
-import { Sparkles, Menu, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 
@@ -23,7 +23,7 @@ export function Header() {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 group">
             <div className="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
-              <Sparkles className="w-5 h-5 text-primary" />
+              <img src="/images/ainsiderlogo.png" alt="Ainsider Logo" className="w-6 h-6 object-contain" />
             </div>
             <span className="font-display font-bold text-xl">
               <span className="gradient-text">Ainsider</span>
@@ -48,9 +48,8 @@ export function Header() {
                 <Link
                   key={link.path}
                   to={link.path}
-                  className={`nav-link font-medium ${
-                    isActive(link.path) ? 'text-primary' : ''
-                  }`}
+                  className={`nav-link font-medium ${isActive(link.path) ? 'text-primary' : ''
+                    }`}
                 >
                   {link.label}
                 </Link>
@@ -101,9 +100,8 @@ export function Header() {
                     key={link.path}
                     to={link.path}
                     onClick={() => setMobileMenuOpen(false)}
-                    className={`py-2 font-medium transition-colors ${
-                      isActive(link.path) ? 'text-primary' : 'text-muted-foreground hover:text-foreground'
-                    }`}
+                    className={`py-2 font-medium transition-colors ${isActive(link.path) ? 'text-primary' : 'text-muted-foreground hover:text-foreground'
+                      }`}
                   >
                     {link.label}
                   </Link>
