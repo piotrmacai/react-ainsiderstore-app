@@ -1,0 +1,41 @@
+# Ainsider Hub - AI Agents, Tools and Prompts Directory
+
+## About
+Ainsider Hub is a comprehensive platform for discovering AI agents, tools, models, and prompts for LLMs. Our directory is curated to help developers, businesses, and AI enthusiasts find the best AI solutions.
+
+## Main Sections
+
+### AI Tools Directory
+A curated collection of 500+ AI tools and agents for productivity, development, content creation, and innovation. Each tool is categorized and tagged for easy discovery.
+
+### Prompt Library
+Access 1000+ powerful prompts designed for various AI models including ChatGPT, Claude, Gemini, and other LLMs. Prompts are organized by category and use case.
+
+### AI News & Blog
+Stay updated with the latest trends, news, and insights in artificial intelligence. Published on Substack at https://ainsiderai.substack.com/
+
+## Key Topics
+- AI Agents
+- AI Tools
+- AI Models
+- LLM Prompts
+- Machine Learning
+- Generative AI
+- ChatGPT
+- Claude
+- Gemini
+- Artificial Intelligence
+- Prompt Engineering
+- AI Productivity
+- AI Development
+
+## Content Types
+- Tool listings with descriptions, categories, and external links
+- Prompt templates for various use cases
+- AI news and analysis articles
+
+## Updates
+Content is updated daily with new AI tools and prompts.
+
+## Contact
+Visit our website for the latest AI tools and prompts directory.
