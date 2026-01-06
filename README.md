@@ -1,73 +1,64 @@
-# Welcome to your Lovable project
+**AI Tools, Agents & Prompts Directory**  
+A modern web directory for AI tools, AI agents, and prompt libraries — built with **React.js** and **Supabase**.
 
-## Project info
+Live Demo: https://ainsider.store  
+Repository: https://github.com/piotrmacai/react-ainsiderstore-app
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+---
 
-## How can I edit this code?
+## 🧠 Project Overview
 
-There are several ways of editing your application.
+**react-ainsiderstore-app** is a frontend application designed as an AI directory platform.  
+It allows users to browse, explore, and discover:
 
-**Use Lovable**
+- AI tools and platforms
+- AI agents and automation solutions
+- Prompt libraries and prompt engineering resources
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+The project is part of the **AINSIDER** ecosystem and serves as a scalable foundation for an AI marketplace / directory product.
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 🎯 Core Goals
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- Centralized directory of AI-related resources
+- Clean, fast, and responsive UI
+- Simple data-driven architecture using Supabase
+- Easy extensibility for future SaaS features
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## ⚙️ Tech Stack
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+| Layer | Technology |
+|-----|-----------|
+| Frontend | React.js + TypeScript |
+| Styling | Tailwind CSS |
+| Build Tool | Vite |
+| Backend | Supabase (PostgreSQL, API, Auth) |
+| Hosting | Vercel |
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## ✨ Features
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+- **AI Directory**
+  - Browse AI tools, agents, and prompts
+  - Category-based organization
+  - Scalable data model
 
-**Edit a file directly in GitHub**
+- **Prompt Library**
+  - Prompt-focused resources for developers and creators
+  - Clear descriptions and categorization
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- **Responsive UI**
+  - Mobile-first, clean layout
+  - Optimized for performance and readability
 
-**Use GitHub Codespaces**
+- **Supabase Backend**
+  - PostgreSQL database
+  - API access via Supabase client
+  - Ready for authentication and user roles
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
