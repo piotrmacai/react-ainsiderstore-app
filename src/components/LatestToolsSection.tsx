@@ -6,9 +6,12 @@ import { useTools } from '@/hooks/useTools';
 
 export function LatestToolsSection() {
   const { tools, loading, error } = useTools();
-  
-  // Get latest 30 tools
-  const latestTools = tools.slice(0, 30);
+
+  // Get latest 30 tools that are marked as Top Tool
+  const latestTools = tools
+    .filter(tool => tool.top)
+    .sort((a, b) => new Date(b.created || 0).getTime() - new Date(a.created || 0).getTime())
+    .slice(0, 30);
 
   if (error) {
     return null;
