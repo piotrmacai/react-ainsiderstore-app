@@ -21,12 +21,13 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route path="/tools" element={<ToolsPage />} />
-          <Route path="/tools/:slug" element={<><ToolsPage /><ToolDetailModal /></>} />
-          <Route path="/prompts" element={<PromptsPage />} />
-          <Route path="/prompts/:slug" element={<><PromptsPage /><PromptDetailPage /></>} />
+          <Route path="/tools" element={<ToolsPage />}>
+            <Route path=":slug" element={<ToolDetailModal />} />
+          </Route>
+          <Route path="/prompts" element={<PromptsPage />}>
+            <Route path=":slug" element={<PromptDetailPage />} />
+          </Route>
           <Route path="/blog" element={<BlogPage />} />
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

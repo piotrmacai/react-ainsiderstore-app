@@ -1,5 +1,5 @@
 import { useState, useMemo } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Outlet } from 'react-router-dom';
 import { usePromptsDirectory } from '@/hooks/usePromptsDirectory';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
@@ -80,7 +80,7 @@ const PromptsPage = () => {
               selectedCategories={selectedCategory ? [selectedCategory] : []}
               selectedTags={[]}
               onCategoryChange={handleCategoryChange}
-              onTagChange={() => {}}
+              onTagChange={() => { }}
               onClearFilters={handleClearFilters}
             />
 
@@ -127,6 +127,7 @@ const PromptsPage = () => {
       </main>
 
       <Footer />
+      <Outlet />
     </div>
   );
 };

@@ -32,7 +32,7 @@ export function ToolDetailModal() {
   }, [slug, tools]);
 
   const handleClose = () => {
-    navigate(-1);
+    navigate('/tools');
   };
 
   const handleCopyLink = async () => {

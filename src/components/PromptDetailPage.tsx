@@ -21,7 +21,7 @@ export function PromptDetailPage() {
   const { slug } = useParams<{ slug: string }>();
   const navigate = useNavigate();
   const { prompts, loading } = usePromptsDirectory();
-  
+
   const [prompt, setPrompt] = useState<Prompt | null>(null);
   const [editedName, setEditedName] = useState('');
   const [editedDescription, setEditedDescription] = useState('');
@@ -44,7 +44,7 @@ export function PromptDetailPage() {
   }, [slug, prompts]);
 
   const handleClose = () => {
-    navigate(-1);
+    navigate('/prompts');
   };
 
   const handleCopy = async (text: string, field: string) => {
