@@ -32,11 +32,11 @@ export function usePromptsDirectory() {
       setLoading(true);
       setError(null);
 
-      // NOTE: this table uses a capitalized "Id" column (case-sensitive), so we must order by "Id".
+      // Order by Date descending to show the newest/latest added prompts first
       const { data, error } = await supabase
         .from("ainsider_prompts_directory")
         .select("*")
-        .order("Id", { ascending: false });
+        .order("Date", { ascending: false });
 
       if (error) throw error;
 

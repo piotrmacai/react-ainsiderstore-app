@@ -100,16 +100,6 @@ export function ToolDetailModal() {
             </p>
           </div>
 
-          {/* Article/Details */}
-          {tool.article && (
-            <div>
-              <h3 className="text-sm font-medium mb-2 text-muted-foreground">About This Tool</h3>
-              <div className="bg-secondary/30 rounded-lg p-4 prose prose-sm dark:prose-invert max-w-none">
-                <p className="whitespace-pre-wrap text-foreground">{tool.article}</p>
-              </div>
-            </div>
-          )}
-
           {/* Link */}
           {tool.link && (
             <div>
@@ -123,6 +113,16 @@ export function ToolDetailModal() {
                 {tool.link}
                 <ExternalLink className="w-4 h-4" />
               </a>
+            </div>
+          )}
+
+          {/* Article/Details */}
+          {tool.article && (
+            <div>
+              <h3 className="text-sm font-medium mb-2 text-muted-foreground">About This Tool</h3>
+              <div className="bg-secondary/30 rounded-lg p-4 prose prose-sm dark:prose-invert max-w-none">
+                <p className="whitespace-pre-wrap text-foreground">{tool.article}</p>
+              </div>
             </div>
           )}
 
