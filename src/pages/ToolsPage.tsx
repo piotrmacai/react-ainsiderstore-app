@@ -58,7 +58,7 @@ const ToolsPage = () => {
         tool.description?.toLowerCase().includes(searchQuery.toLowerCase());
 
       const matchesCategory =
-        !selectedCategory || tool.categories === selectedCategory;
+        !selectedCategory || (tool.categories && tool.categories.includes(selectedCategory));
 
       const matchesTags =
         !selectedTag || tool.tags === selectedTag;

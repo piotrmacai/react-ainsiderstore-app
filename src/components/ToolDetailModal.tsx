@@ -76,13 +76,13 @@ export function ToolDetailModal() {
     <Dialog open onOpenChange={handleClose}>
       <DialogContent className="max-w-3xl max-h-[90vh] overflow-y-auto">
         <DialogHeader>
-          <DialogTitle className="flex items-center gap-3 pr-8">
+          <DialogTitle className="flex items-center gap-3 pr-8 flex-wrap">
             <span className="font-display text-xl">{tool.name}</span>
-            {tool.categories && (
-              <Badge variant="secondary" className="text-xs">
-                {tool.categories}
+            {tool.categories && tool.categories.map((category, index) => (
+              <Badge key={index} variant="secondary" className="text-xs">
+                {category}
               </Badge>
-            )}
+            ))}
             {tool.tags && (
               <Badge variant="outline" className="text-xs">
                 {tool.tags}

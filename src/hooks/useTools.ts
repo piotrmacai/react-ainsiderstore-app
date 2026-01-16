@@ -20,10 +20,12 @@ export function useTools() {
 
       setTools(data || []);
 
-      // Extract unique categories and tags (both are single string values now)
-      const uniqueCategories = [...new Set(data?.map(t => t.categories).filter(Boolean))] as string[];
+      // Extract unique categories (categories is now a text[] array) and tags
+      const uniqueCategories = [...new Set(
+        data?.flatMap(t => t.categories || []).filter(Boolean)
+      )] as string[];
       const uniqueTags = [...new Set(data?.map(t => t.tags).filter(Boolean))] as string[];
-      
+
       setCategories(uniqueCategories);
       setTags(uniqueTags);
     } catch (err) {

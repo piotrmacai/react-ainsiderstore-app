@@ -20,13 +20,13 @@ export function ToolCard({ tool }: ToolCardProps) {
   };
 
   return (
-    <div 
+    <div
       onClick={handleCardClick}
       className="group relative bg-card rounded-xl border border-border overflow-hidden card-hover p-5 cursor-pointer"
     >
       {/* Gradient overlay on hover */}
       <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-accent/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-      
+
       {/* Content */}
       <div className="relative">
         <div className="flex items-start justify-between gap-2 mb-2">
@@ -52,11 +52,11 @@ export function ToolCard({ tool }: ToolCardProps) {
 
         {/* Tags */}
         <div className="flex flex-wrap gap-2">
-          {tool.categories && (
-            <Badge variant="secondary" className="text-xs">
-              {tool.categories}
+          {tool.categories && tool.categories.map((category, index) => (
+            <Badge key={index} variant="secondary" className="text-xs">
+              {category}
             </Badge>
-          )}
+          ))}
           {tool.tags && (
             <Badge variant="outline" className="text-xs">
               {tool.tags}

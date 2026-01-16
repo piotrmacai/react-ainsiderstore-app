@@ -11,7 +11,7 @@ export interface Tool {
   id: number;
   name: string;
   description: string;
-  categories?: string;
+  categories?: string[];
   tags?: string;
   link?: string;
   top?: string;
@@ -22,7 +22,7 @@ export interface Tool {
 export interface Prompt {
   id: number;
   name: string;
-  category?: string;
+  category?: string[];
   description?: string;
   prompt?: string;
   date?: string;

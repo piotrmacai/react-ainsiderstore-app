@@ -4,7 +4,7 @@ import { Calendar, Newspaper, ExternalLink } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 import { useSubstackFeed } from '@/hooks/useSubstackFeed';
 
-const BlogPage = () => {
+const Blog = () => {
   const { articles: substackArticles, loading: substackLoading } = useSubstackFeed();
 
   return (
@@ -33,10 +33,10 @@ const BlogPage = () => {
           </div>
 
           {/* Substack Articles */}
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-7xl mx-auto">
             {substackLoading ? (
-              <div className="grid gap-4 md:grid-cols-2">
-                {Array.from({ length: 6 }).map((_, i) => (
+              <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+                {Array.from({ length: 9 }).map((_, i) => (
                   <div key={i} className="bg-card rounded-xl border border-border p-5 animate-pulse">
                     <div className="h-4 bg-secondary rounded w-24 mb-3" />
                     <div className="h-6 bg-secondary rounded w-full mb-2" />
@@ -45,7 +45,7 @@ const BlogPage = () => {
                 ))}
               </div>
             ) : substackArticles.length > 0 ? (
-              <div className="grid gap-4 md:grid-cols-2">
+              <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
                 {substackArticles.map((article, index) => (
                   <a
                     key={article.link}
@@ -110,4 +110,4 @@ const BlogPage = () => {
   );
 };
 
-export default BlogPage;
+export default Blog;

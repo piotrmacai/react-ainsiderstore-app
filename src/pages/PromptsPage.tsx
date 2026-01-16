@@ -34,8 +34,8 @@ const PromptsPage = () => {
         prompt.description?.toLowerCase().includes(searchQuery.toLowerCase()) ||
         prompt.prompt?.toLowerCase().includes(searchQuery.toLowerCase());
 
-      // Category filter
-      const matchesCategory = !selectedCategory || prompt.category === selectedCategory;
+      // Category filter - check if the category array includes the selected category
+      const matchesCategory = !selectedCategory || (prompt.category?.includes(selectedCategory) ?? false);
 
       return matchesSearch && matchesCategory;
     });

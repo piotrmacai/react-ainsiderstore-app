@@ -11,7 +11,7 @@ export function Header() {
     { path: '/', label: 'Home', external: false },
     { path: '/tools', label: 'AI Tools', external: false },
     { path: '/prompts', label: 'Prompts', external: false },
-    { path: 'https://ainsiderai.substack.com/', label: 'Blog', external: true },
+    { path: '/blog', label: 'Blog', external: false },
   ];
 
   const isActive = (path: string) => location.pathname === path;

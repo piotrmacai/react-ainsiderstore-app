@@ -60,13 +60,13 @@ export function PromptCard({ prompt, onClick }: PromptCardProps) {
           </p>
         </div>
 
-        {/* Category */}
+        {/* Categories */}
         <div className="flex flex-wrap gap-2">
-          {prompt.category && (
-            <Badge variant="secondary" className="text-xs">
-              {prompt.category}
+          {prompt.category?.map((cat) => (
+            <Badge key={cat} variant="secondary" className="text-xs">
+              {cat}
             </Badge>
-          )}
+          ))}
         </div>
       </div>
     </div>

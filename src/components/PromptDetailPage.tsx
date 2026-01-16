@@ -104,13 +104,13 @@ export function PromptDetailPage() {
     <Dialog open onOpenChange={handleClose}>
       <DialogContent className="max-w-2xl max-h-[90vh] overflow-y-auto">
         <DialogHeader>
-          <DialogTitle className="flex items-center gap-3">
+          <DialogTitle className="flex items-center gap-3 flex-wrap">
             <span className="font-display">Edit Prompt</span>
-            {prompt.category && (
-              <Badge variant="secondary" className="text-xs">
-                {prompt.category}
+            {prompt.category?.map((cat) => (
+              <Badge key={cat} variant="secondary" className="text-xs">
+                {cat}
               </Badge>
-            )}
+            ))}
           </DialogTitle>
         </DialogHeader>
 
