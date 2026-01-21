@@ -36,7 +36,7 @@ const Index = () => {
       <Header />
 
       {/* Hero Section */}
-      <section className="relative pt-32 pb-20 overflow-hidden">
+      <section className="relative pt-32 pb-12 overflow-hidden">
         {/* Background effects */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <div className="absolute top-1/4 -left-32 w-96 h-96 bg-primary/20 rounded-full blur-[128px] animate-pulse-glow" />
@@ -62,7 +62,7 @@ const Index = () => {
               Explore curated AI tools, powerful prompts, and stay ahead with the latest news in the AI revolution.
             </p>
 
-            <div className="flex justify-center mb-10 animate-fade-in" style={{ animationDelay: '0.25s' }}>
+            <div className="flex justify-center mb-2 animate-fade-in" style={{ animationDelay: '0.25s' }}>
               <div className="flex flex-wrap gap-3">
                 <a
                   href="https://x.com/piotrmacai"
@@ -104,7 +104,7 @@ const Index = () => {
             </div>
 
             {/* CTAs */}
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in" style={{ animationDelay: '0.3s' }}>
+            {/* <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in" style={{ animationDelay: '0.3s' }}>
               <Button asChild size="lg" className="glow-effect group">
                 <Link to="/tools">
                   Explore Tools
@@ -114,22 +114,22 @@ const Index = () => {
               <Button asChild variant="outline" size="lg">
                 <Link to="/prompts">Browse Prompts</Link>
               </Button>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
 
       {/* Features Section */}
-      <section className="py-20 relative">
+      <section className="pb-8 relative">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
+          {/* <div className="text-center mb-12">
             <h2 className="font-display text-3xl md:text-4xl font-bold mb-4">
               Everything You Need for AI
             </h2>
             <p className="text-muted-foreground max-w-xl mx-auto">
               Three powerful modules to accelerate your AI journey
             </p>
-          </div>
+          </div> */}
 
           <div className="grid md:grid-cols-3 gap-6">
             {features.map((feature, index) => (
