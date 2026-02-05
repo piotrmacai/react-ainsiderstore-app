@@ -2,7 +2,8 @@ import { Tool } from '@/lib/supabase';
 import { ExternalLink } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 import { useNavigate } from 'react-router-dom';
-import { createToolSlug } from '@/lib/slugify';
+import { createToolSlugByName } from '@/lib/slugify';
+import { useTools } from '@/hooks/useTools';
 
 interface ToolCardProps {
   tool: Tool;
@@ -10,9 +11,10 @@ interface ToolCardProps {
 
 export function ToolCard({ tool }: ToolCardProps) {
   const navigate = useNavigate();
+  const { tools } = useTools();
 
   const handleCardClick = () => {
-    navigate(`/tools/${createToolSlug(tool.id, tool.name)}`);
+    navigate(`/tools/${createToolSlugByName(tool.name, tools, tool.id)}`);
   };
 
   const handleLinkClick = (e: React.MouseEvent) => {

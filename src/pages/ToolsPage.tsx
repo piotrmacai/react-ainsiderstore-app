@@ -1,5 +1,4 @@
 import { useState, useMemo } from 'react';
-import { Outlet } from 'react-router-dom';
 import { useTools } from '@/hooks/useTools';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
@@ -184,7 +183,6 @@ const ToolsPage = () => {
       </main>
 
       <Footer />
-      <Outlet />
     </div>
   );
 };

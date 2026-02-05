@@ -5,10 +5,10 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import ToolsPage from "./pages/ToolsPage";
+import ToolDetailPage from "./pages/ToolDetailPage";
 import PromptsPage from "./pages/PromptsPage";
 import Blog from "./pages/Blog";
 import NotFound from "./pages/NotFound";
-import { ToolDetailModal } from "./components/ToolDetailModal";
 import { PromptDetailPage } from "./components/PromptDetailPage";
 
 const queryClient = new QueryClient();
@@ -21,9 +21,8 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route path="/tools" element={<ToolsPage />}>
-            <Route path=":slug" element={<ToolDetailModal />} />
-          </Route>
+          <Route path="/tools" element={<ToolsPage />} />
+          <Route path="/tools/:slug" element={<ToolDetailPage />} />
           <Route path="/prompts" element={<PromptsPage />}>
             <Route path=":slug" element={<PromptDetailPage />} />
           </Route>
