@@ -7,6 +7,7 @@ import Index from "./pages/Index";
 import ToolsPage from "./pages/ToolsPage";
 import ToolDetailPage from "./pages/ToolDetailPage";
 import PromptsPage from "./pages/PromptsPage";
+import DocsPage from "./pages/DocsPage";
 import Blog from "./pages/Blog";
 import NotFound from "./pages/NotFound";
 import { PromptDetailPage } from "./components/PromptDetailPage";
@@ -26,6 +27,7 @@ const App = () => (
           <Route path="/prompts" element={<PromptsPage />}>
             <Route path=":slug" element={<PromptDetailPage />} />
           </Route>
+          <Route path="/docs" element={<DocsPage />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
