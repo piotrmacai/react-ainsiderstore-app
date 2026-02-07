@@ -16,6 +16,7 @@ export interface DocArticle {
   icon: keyof typeof iconMap;
 }
 
+// eslint-disable-next-line react-refresh/only-export-components
 export const iconMap = {
   Bot,
   Workflow,
@@ -55,6 +56,8 @@ export const TOOLS = [
   'Runway',
 ] as const;
 
+
+// eslint-disable-next-line react-refresh/only-export-components
 export const docsData: DocArticle[] = [
   // AI Agents Category
   {
@@ -1641,6 +1644,273 @@ Document prompts that produce on-brand results.
 > 💡 Use AI as a tool, not a replacement for creative thinking
 
 > 🔒 Verify rights for commercial use of AI outputs
+`,
+  },
+  // New AI Agent Templates
+  {
+    id: 'ai-agent-templates',
+    title: 'AI Agent Templates',
+    description: 'Production-ready templates for Voiceflow, Flowise, n8n, LangChain, and Botpress agents.',
+    category: 'ai-agents',
+    categoryLabel: 'AI Agents',
+    tools: ['n8n', 'LangChain'],
+    difficulty: 'intermediate',
+    readTime: '10 min',
+    icon: 'Network',
+    content: `# AI Agent Templates
+
+Production-ready templates of AI Agents created using Voiceflow, Flowise, n8n, LangChain, and Botpress.
+
+## Voiceflow Templates
+
+### Lead Generation & Customer Support Agent
+**Repository:** [View on GitHub](https://github.com/piotrmacai/Voiceflow/tree/main/agent-voiceflow-leadbot-v1)
+
+### Ecommerce Agent with Product Recommendation System
+**Repository:** [View on GitHub](https://github.com/piotrmacai/Voiceflow/tree/main/agent-ecom-v1)
+
+## Flowise Templates
+
+### Local RAG with Documents Q&A
+[View on GitHub](https://github.com/piotrmacai/agent-flowise-local-ollama-rag)
+
+### Sequential Agent with Defined Conditions
+[View on GitHub](https://github.com/piotrmacai/agent-flowise-sequentialAgents)
+
+### Vision Agent for Structuring Data from Documents and Images
+[View on GitHub](https://github.com/piotrmacai/agent-flowise-visionAgents)
+
+### RAG Assistant with Custom Tools
+[View on GitHub](https://github.com/piotrmacai/agent-flowise-ragtools-support-agent)
+
+## n8n Templates
+
+### Slack Personal AI Agent
+[View on GitHub](https://github.com/piotrmacai/n8n/tree/main/agent-slack-personal-agent)
+
+### WooCommerce AI Agent
+[View on GitHub](https://github.com/piotrmacai/n8n/tree/main/agent-woocommerce-ai-agent)
+
+### Content Creator AI Agent for WordPress & CMS
+[View on GitHub](https://github.com/piotrmacai/n8n/tree/main/agent-cms-content-creator)
+
+### Telegram AI Assistant Starter
+[View on GitHub](https://github.com/piotrmacai/n8n/tree/main/agent-telegram-agent-starter)
+
+### Multimodal Telegram AI Assistant
+[View on GitHub](https://github.com/piotrmacai/n8n/tree/main/agent-telegram-multimodal)
+
+## LangChain Templates
+
+### Local RAG Chatbot with Ollama & DeepSeek
+[View on GitHub](https://github.com/piotrmacai/Langchain/tree/main/agent-ollama-deepseek-rag)
+
+### Local AI Researcher Agent with Ollama & DeepSeek
+[View on GitHub](https://github.com/piotrmacai/Langchain/tree/main/agent-researcher-ollama-deepseek)
+
+## Botpress Templates
+
+### Ecommerce AI Agent with Product Recommendations
+[View on GitHub](https://github.com/piotrmacai/botpress/tree/main/ecommerce-agent-v1)
+
+### Lead Generation & Customer Support Agent
+[View on GitHub](https://github.com/piotrmacai/agent-botpress-leadbot-v2)
+`,
+  },
+  {
+    id: 'flowise-guide',
+    title: 'Flowise Getting Started',
+    description: 'A comprehensive guide to Flowise, an open-source low-code UI for building AI agents.',
+    category: 'ai-agents',
+    categoryLabel: 'AI Agents',
+    tools: ['LangChain'],
+    difficulty: 'beginner',
+    readTime: '10 min',
+    icon: 'Workflow',
+    content: `# Flowise Getting Started
+
+Flowise is an open-source, low-code UI platform for building LLM orchestration workflows and AI agents using LangChain.js. It enables rapid development via a visual drag-and-drop interface and supports dynamic RAG updates and real-time document synchronization.
+
+## Key Concepts
+
+- **Visual node-based workflow designer:** 50+ components available
+- **Native vector database integrations:** Pinecone, Upstash, Chroma
+- **Document Store API:** With dynamic content updates
+- **Advanced text splitting strategies:** Markdown, Recursive, Code
+
+## Installation
+
+### Cloud
+
+Flowise Cloud is recommended if you do not want to manage servers, backups, and updates manually.
+
+### Self-Hosting
+
+**Requirements:**
+- Node.js v18.15.0 or v20+
+
+**Installation Options:**
+- Local setup via repository clone and build
+- Global installation via npm
+- Runs locally at http://localhost:3000
+
+## Basics
+
+### Core Components
+- **Document Loaders:** PDF, CSV, HTML
+- **Text Splitters:** With chunk overlap
+- **Vector Store connectors:** For indexing
+- **LLM gateways:** OpenAI, HuggingFace, local models
+
+### Recommended Workflow Pattern
+1. Load documents with metadata
+2. Split content context-aware
+3. Generate embeddings
+4. Configure retrieval (Top-K default: 4)
+
+## Integrations
+
+### Enterprise Capabilities
+- Document Store API (Add, Replace, Delete)
+- Google Drive real-time sync
+- Vector database lifecycle management
+
+## Resources
+
+- [Official Documentation](https://docs.flowiseai.com/)
+- [GitHub Repository](https://github.com/FlowiseAI/FlowiseDocs)
+`,
+  },
+  {
+    id: 'botpress-guide',
+    title: 'Botpress Getting Started',
+    description: 'Learn how to build conversational AI assistants with minimal coding using Botpress.',
+    category: 'ai-agents',
+    categoryLabel: 'AI Agents',
+    tools: ['Gemini'], // Using a generic tool as Botpress isn't in TOOLS
+    difficulty: 'beginner',
+    readTime: '10 min',
+    icon: 'Bot',
+    content: `# Botpress Getting Started
+
+Botpress is a platform for building conversational AI assistants with minimal coding.
+
+## Key Features
+
+- **Visual flow editor:** Design conversations visually
+- **Built-in NLU:** Natural Language Understanding included
+- **Multi-language support:** Create global bots
+- **Extension system:** Extend functionality
+- **Analytics dashboard:** Track performance
+
+## Developer Tools
+
+- Custom actions
+- External integrations
+- Debugging and testing tools
+
+## Conversation Design
+
+### Core Building Blocks
+- Drag-and-drop conversation flows
+- Modular message blocks
+- Conditional logic
+- Centralized content management
+
+## Natural Language Understanding (NLU)
+
+### Capabilities
+- Intent recognition
+- Entity extraction
+- Language detection
+- Slot filling
+
+### Optimization
+- Training variations
+- Versioning
+- Performance analytics
+- Continuous improvement from real conversations
+`,
+  },
+  {
+    id: 'voiceflow-guide',
+    title: 'Voiceflow Getting Started',
+    description: 'A guide to building voice and chat assistants using Voiceflow collaborative platform.',
+    category: 'ai-agents',
+    categoryLabel: 'AI Agents',
+    tools: ['Gemini'], // Using a generic tool as Voiceflow isn't in TOOLS
+    difficulty: 'beginner',
+    readTime: '10 min',
+    icon: 'Bot',
+    content: `# Voiceflow Getting Started
+
+Voiceflow is a collaborative platform for building voice and chat assistants.
+
+## Core Components
+
+- **Blocks:** Functions and actions
+- **Intents:** What user wants
+- **Variables:** Storing data
+
+## Core Features
+
+### Visual Conversation Design
+- Drag-and-drop canvas
+- Real-time collaboration
+- Version history
+- Custom blocks
+
+### NLU Capabilities
+- Intent detection
+- Entity extraction
+- Context memory
+- Multilingual support
+
+### Voice Agent Capabilities
+- Voice interaction
+- Text-to-Speech
+- Speech-to-Text
+- Voice authentication
+- Custom voices
+
+### Conversation Management
+- Turn handling
+- Interruptions
+- Fallback strategies
+- Context-aware responses
+
+## Use Cases
+
+### Customer Service
+- 24/7 support
+- Ticket automation
+- FAQ handling
+- Human handoff
+
+### Sales & Marketing
+- Lead qualification
+- Product recommendations
+- Booking & scheduling
+- Campaign automation
+
+## Integrations
+
+### Voice Channels
+- Amazon Alexa
+- Google Assistant
+- Telephony systems
+
+### Chat Channels
+- Web chat
+- WhatsApp
+- Facebook Messenger
+
+## Analytics
+
+### Key Metrics
+- User engagement
+- Conversation paths
+- Drop-off points
 `,
   },
 ];

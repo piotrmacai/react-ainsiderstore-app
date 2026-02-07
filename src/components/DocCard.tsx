@@ -1,5 +1,5 @@
 import { Badge } from '@/components/ui/badge';
-import { DocArticle, iconMap, CATEGORY_COLORS, DIFFICULTY_COLORS } from '@/data/docsData';
+import { DocArticle, iconMap } from '@/data/docsData';
 import { Clock } from 'lucide-react';
 
 interface DocCardProps {
@@ -9,8 +9,6 @@ interface DocCardProps {
 
 export function DocCard({ article, onClick }: DocCardProps) {
     const IconComponent = iconMap[article.icon];
-    const categoryColor = CATEGORY_COLORS[article.category];
-    const difficultyColor = DIFFICULTY_COLORS[article.difficulty];
 
     return (
         <button
@@ -27,10 +25,10 @@ export function DocCard({ article, onClick }: DocCardProps) {
                         {article.title}
                     </h3>
                     <div className="flex items-center gap-2">
-                        <Badge variant="outline" className={categoryColor}>
+                        <Badge variant="outline">
                             {article.categoryLabel}
                         </Badge>
-                        <Badge variant="outline" className={difficultyColor}>
+                        <Badge variant="outline">
                             {article.difficulty}
                         </Badge>
                     </div>

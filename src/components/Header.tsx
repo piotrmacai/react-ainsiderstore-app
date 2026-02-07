@@ -11,7 +11,7 @@ export function Header() {
     { path: '/', label: 'Home', external: false },
     { path: '/tools', label: 'AI Tools', external: false },
     { path: '/prompts', label: 'Prompts', external: false },
-    // { path: '/docs', label: 'Docs', external: false },
+    { path: '/docs', label: 'Docs', external: false },
     { path: '/blog', label: 'Blog', external: false },
   ];
 

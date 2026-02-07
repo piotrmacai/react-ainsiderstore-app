@@ -1,7 +1,7 @@
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from '@/components/ui/dialog';
 import { Badge } from '@/components/ui/badge';
 import { ScrollArea } from '@/components/ui/scroll-area';
-import { DocArticle, iconMap, CATEGORY_COLORS, DIFFICULTY_COLORS } from '@/data/docsData';
+import { DocArticle, iconMap } from '@/data/docsData';
 import { Clock, X, ChevronLeft } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import ReactMarkdown from 'react-markdown';
@@ -17,8 +17,6 @@ export function DocDetailModal({ article, isOpen, onClose }: DocDetailModalProps
     if (!article) return null;
 
     const IconComponent = iconMap[article.icon];
-    const categoryColor = CATEGORY_COLORS[article.category];
-    const difficultyColor = DIFFICULTY_COLORS[article.difficulty];
 
     return (
         <Dialog open={isOpen} onOpenChange={onClose}>
@@ -47,10 +45,10 @@ export function DocDetailModal({ article, isOpen, onClose }: DocDetailModalProps
                             </div>
 
                             <div className="flex flex-wrap items-center gap-2">
-                                <Badge variant="outline" className={categoryColor}>
+                                <Badge variant="outline">
                                     {article.categoryLabel}
                                 </Badge>
-                                <Badge variant="outline" className={difficultyColor}>
+                                <Badge variant="outline">
                                     {article.difficulty}
                                 </Badge>
                                 <span className="flex items-center text-sm text-muted-foreground">

@@ -1,5 +1,5 @@
 import { X } from 'lucide-react';
-import { CATEGORIES, TOOLS, CATEGORY_COLORS } from '@/data/docsData';
+import { CATEGORIES, TOOLS } from '@/data/docsData';
 
 interface DocsSidebarProps {
     selectedCategory: string | null;
@@ -20,7 +20,7 @@ export function DocsSidebar({
 
     return (
         <aside className="w-full lg:w-72 shrink-0">
-            <div className="bg-card rounded-xl border border-border p-5 sticky top-28">
+            <div className="bg-card rounded-xl border border-border p-5 sticky top-28 max-h-[calc(100vh-8rem)] overflow-y-auto custom-scrollbar">
                 <div className="flex items-center justify-between mb-6">
                     <h3 className="font-display font-semibold text-lg">Filters</h3>
                     {hasActiveFilters && (
@@ -42,17 +42,12 @@ export function DocsSidebar({
                         </h4>
                         <div className="space-y-2">
                             {CATEGORIES.map(({ id, label, icon: Icon }) => {
-                                const isSelected = selectedCategory === id;
-                                const colorClass = CATEGORY_COLORS[id as keyof typeof CATEGORY_COLORS];
 
                                 return (
                                     <button
                                         key={id}
                                         onClick={() => onCategoryChange(id)}
-                                        className={`w-full flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-all duration-200 ${isSelected
-                                                ? `${colorClass} border`
-                                                : 'bg-secondary/50 text-secondary-foreground hover:bg-secondary'
-                                            }`}
+                                        className="w-full flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-all duration-200"
                                     >
                                         <Icon className="w-4 h-4" />
                                         {label}
@@ -76,8 +71,8 @@ export function DocsSidebar({
                                         key={tool}
                                         onClick={() => onToolChange(tool)}
                                         className={`px-3 py-1.5 rounded-full text-xs font-medium transition-all duration-200 ${isSelected
-                                                ? 'bg-primary text-primary-foreground'
-                                                : 'bg-secondary text-secondary-foreground hover:bg-primary/20 hover:text-primary'
+                                            ? 'bg-primary text-primary-foreground'
+                                            : 'bg-secondary text-secondary-foreground hover:bg-primary/20 hover:text-primary'
                                             }`}
                                     >
                                         {tool}
