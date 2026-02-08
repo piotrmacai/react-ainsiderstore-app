@@ -1,5 +1,6 @@
 import { Helmet } from 'react-helmet-async';
-import { Tool } from '@/lib/supabase';
+import { Tool, Prompt } from '@/lib/supabase';
+import { DocArticle } from '@/data/docsData';
 
 interface SEOHeadProps {
     title?: string;
@@ -8,6 +9,8 @@ interface SEOHeadProps {
     image?: string;
     type?: string;
     tool?: Tool;
+    article?: DocArticle;
+    prompt?: Prompt;
 }
 
 const BASE_URL = 'https://ainsider.store';
@@ -21,24 +24,40 @@ export function SEOHead({
     image = DEFAULT_IMAGE,
     type = 'website',
     tool,
+    article,
+    prompt,
 }: SEOHeadProps) {
-    // Generate tool-specific SEO data if tool is provided
-    const pageTitle = tool
-        ? `${tool.name} - AI Tool | ${SITE_NAME}`
-        : title
-            ? `${title} | ${SITE_NAME}`
-            : `${SITE_NAME} - AI Agents, Tools and Prompts Directory`;
+    // Generate page title
+    let pageTitle = title ? `${title} | ${SITE_NAME}` : `${SITE_NAME} - AI Agents, Tools and Prompts Directory`;
 
-    const pageDescription = tool
-        ? tool.description || `Discover ${tool.name} - an AI tool featured on Ainsider Store.`
-        : description || 'Discover the best AI agents, tools, models, and prompts for LLMs.';
+    if (tool) {
+        pageTitle = `${tool.name} - AI Tool | ${SITE_NAME}`;
+    } else if (article) {
+        pageTitle = `${article.title} - AI Documentation | ${SITE_NAME}`;
+    } else if (prompt) {
+        pageTitle = `${prompt.name} - AI Prompt | ${SITE_NAME}`;
+    }
+
+    // Generate page description
+    let pageDescription = description || 'Discover the best AI agents, tools, models, and prompts for LLMs.';
+
+    if (tool) {
+        pageDescription = tool.description || `Discover ${tool.name} - an AI tool featured on Ainsider Store.`;
+    } else if (article) {
+        pageDescription = article.description || `Read about ${article.title} in our AI documentation.`;
+    } else if (prompt) {
+        pageDescription = prompt.description || `Get the best AI prompt for ${prompt.name}.`;
+    }
 
     const pageUrl = url || BASE_URL;
     const canonicalUrl = pageUrl.startsWith('http') ? pageUrl : `${BASE_URL}${pageUrl}`;
 
-    // Generate JSON-LD structured data for tools
-    const toolStructuredData = tool
-        ? {
+    // Generate JSON-LD structured data
+    let structuredData: any = null;
+    let breadcrumbData: any = null;
+
+    if (tool) {
+        structuredData = {
             '@context': 'https://schema.org',
             '@type': 'SoftwareApplication',
             name: tool.name,
@@ -48,46 +67,86 @@ export function SEOHead({
             operatingSystem: 'Web',
             offers: {
                 '@type': 'Offer',
-                price: tool.tags === 'Free' ? '0' : undefined,
+                price: tool.tags?.includes('Free') ? '0' : undefined,
                 priceCurrency: 'USD',
                 availability: 'https://schema.org/InStock',
             },
-            aggregateRating: undefined, // Can be added if ratings are available
             publisher: {
                 '@type': 'Organization',
                 name: SITE_NAME,
                 url: BASE_URL,
             },
-        }
-        : null;
+        };
 
-    // BreadcrumbList structured data for tools
-    const breadcrumbData = tool
-        ? {
+        breadcrumbData = {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-                {
-                    '@type': 'ListItem',
-                    position: 1,
-                    name: 'Home',
-                    item: BASE_URL,
-                },
-                {
-                    '@type': 'ListItem',
-                    position: 2,
-                    name: 'AI Tools',
-                    item: `${BASE_URL}/tools`,
-                },
-                {
-                    '@type': 'ListItem',
-                    position: 3,
-                    name: tool.name,
-                    item: canonicalUrl,
-                },
+                { '@type': 'ListItem', position: 1, name: 'Home', item: BASE_URL },
+                { '@type': 'ListItem', position: 2, name: 'AI Tools', item: `${BASE_URL}/tools` },
+                { '@type': 'ListItem', position: 3, name: tool.name, item: canonicalUrl },
             ],
-        }
-        : null;
+        };
+    } else if (article) {
+        structuredData = {
+            '@context': 'https://schema.org',
+            '@type': 'Article',
+            headline: article.title,
+            description: article.description,
+            image: image,
+            author: {
+                '@type': 'Organization',
+                name: SITE_NAME,
+            },
+            publisher: {
+                '@type': 'Organization',
+                name: SITE_NAME,
+                logo: {
+                    '@type': 'ImageObject',
+                    url: DEFAULT_IMAGE,
+                },
+            },
+            datePublished: new Date().toISOString(), // In a real app, this should be the actual date
+            mainEntityOfPage: {
+                '@type': 'WebPage',
+                '@id': canonicalUrl,
+            },
+        };
+
+        breadcrumbData = {
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+                { '@type': 'ListItem', position: 1, name: 'Home', item: BASE_URL },
+                { '@type': 'ListItem', position: 2, name: 'Documentation', item: `${BASE_URL}/docs` },
+                { '@type': 'ListItem', position: 3, name: article.title, item: canonicalUrl },
+            ],
+        };
+    } else if (prompt) {
+        structuredData = {
+            '@context': 'https://schema.org',
+            '@type': 'CreativeWork', // Or 'TechArticle' or custom type
+            name: prompt.name,
+            description: prompt.description,
+            url: canonicalUrl,
+            keywords: prompt.category?.join(', '),
+            publisher: {
+                '@type': 'Organization',
+                name: SITE_NAME,
+                url: BASE_URL,
+            },
+        };
+
+        breadcrumbData = {
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+                { '@type': 'ListItem', position: 1, name: 'Home', item: BASE_URL },
+                { '@type': 'ListItem', position: 2, name: 'Prompts', item: `${BASE_URL}/prompts` },
+                { '@type': 'ListItem', position: 3, name: prompt.name, item: canonicalUrl },
+            ],
+        };
+    }
 
     return (
         <Helmet>
@@ -98,7 +157,7 @@ export function SEOHead({
             <link rel="canonical" href={canonicalUrl} />
 
             {/* Open Graph / Facebook */}
-            <meta property="og:type" content={tool ? 'product' : type} />
+            <meta property="og:type" content={article ? 'article' : (tool ? 'product' : type)} />
             <meta property="og:url" content={canonicalUrl} />
             <meta property="og:title" content={pageTitle} />
             <meta property="og:description" content={pageDescription} />
@@ -113,15 +172,25 @@ export function SEOHead({
             <meta name="twitter:description" content={pageDescription} />
             <meta name="twitter:image" content={image} />
 
-            {/* Tool-specific meta */}
-            {tool?.categories && (
-                <meta name="keywords" content={`${tool.name}, ${tool.categories.join(', ')}, AI tool, ${tool.tags || ''}`} />
+            {/* Keywords */}
+            {(tool?.categories || article?.categoryLabel || prompt?.category) && (
+                <meta
+                    name="keywords"
+                    content={[
+                        tool?.categories?.join(', '),
+                        tool?.tags,
+                        article?.categoryLabel,
+                        article?.tools?.join(', '),
+                        prompt?.category?.join(', '),
+                        'AI, Artificial Intelligence'
+                    ].filter(Boolean).join(', ')}
+                />
             )}
 
-            {/* JSON-LD Structured Data for Tool */}
-            {toolStructuredData && (
+            {/* JSON-LD Structured Data */}
+            {structuredData && (
                 <script type="application/ld+json">
-                    {JSON.stringify(toolStructuredData)}
+                    {JSON.stringify(structuredData)}
                 </script>
             )}
 

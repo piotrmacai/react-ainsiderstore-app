@@ -1,19 +1,22 @@
 import { Badge } from '@/components/ui/badge';
 import { DocArticle, iconMap } from '@/data/docsData';
 import { Clock } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 interface DocCardProps {
     article: DocArticle;
-    onClick: () => void;
+    onClick?: () => void;
 }
 
 export function DocCard({ article, onClick }: DocCardProps) {
-    const IconComponent = iconMap[article.icon];
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const IconComponent = iconMap[article.icon as keyof typeof iconMap] || iconMap.FileText;
 
     return (
-        <button
+        <Link
+            to={`/docs/${article.id}`}
             onClick={onClick}
-            className="group w-full text-left bg-card rounded-xl border border-border p-6 card-hover transition-all duration-300 hover:border-primary/30"
+            className="group block w-full text-left bg-card rounded-xl border border-border p-6 card-hover transition-all duration-300 hover:border-primary/30"
         >
             {/* Header with Icon */}
             <div className="flex items-start gap-4 mb-4">
@@ -62,6 +65,7 @@ export function DocCard({ article, onClick }: DocCardProps) {
                 <Clock className="w-3.5 h-3.5 mr-1" />
                 <span>{article.readTime} read</span>
             </div>
-        </button>
+        </Link>
     );
 }
+

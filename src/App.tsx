@@ -8,6 +8,7 @@ import ToolsPage from "./pages/ToolsPage";
 import ToolDetailPage from "./pages/ToolDetailPage";
 import PromptsPage from "./pages/PromptsPage";
 import DocsPage from "./pages/DocsPage";
+import DocDetailPage from "./pages/DocDetailPage";
 import Blog from "./pages/Blog";
 import NotFound from "./pages/NotFound";
 import { PromptDetailPage } from "./components/PromptDetailPage";
@@ -28,6 +29,7 @@ const App = () => (
             <Route path=":slug" element={<PromptDetailPage />} />
           </Route>
           <Route path="/docs" element={<DocsPage />} />
+          <Route path="/docs/:slug" element={<DocDetailPage />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="*" element={<NotFound />} />
         </Routes>

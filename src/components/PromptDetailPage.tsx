@@ -10,6 +10,7 @@ import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Label } from '@/components/ui/label';
 import { toast } from 'sonner';
+import { SEOHead } from '@/components/SEOHead';
 import {
   Dialog,
   DialogContent,
@@ -102,6 +103,7 @@ export function PromptDetailPage() {
 
   return (
     <Dialog open onOpenChange={handleClose}>
+      <SEOHead prompt={prompt} url={`/prompts/${slug}`} />
       <DialogContent className="max-w-2xl max-h-[90vh] overflow-y-auto">
         <DialogHeader>
           <DialogTitle className="flex items-center gap-3 flex-wrap">
@@ -245,3 +247,4 @@ export function PromptDetailPage() {
     </Dialog>
   );
 }
+

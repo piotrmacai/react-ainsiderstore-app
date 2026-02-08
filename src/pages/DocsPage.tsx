@@ -3,8 +3,7 @@ import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { DocCard } from '@/components/DocCard';
 import { DocsSidebar } from '@/components/DocsSidebar';
-import { DocDetailModal } from '@/components/DocDetailModal';
-import { docsData, DocArticle, CATEGORIES } from '@/data/docsData';
+import { docsData, CATEGORIES } from '@/data/docsData';
 import { Search, BookOpen, Sparkles } from 'lucide-react';
 import { Input } from '@/components/ui/input';
 
@@ -12,8 +11,6 @@ const DocsPage = () => {
     const [searchQuery, setSearchQuery] = useState('');
     const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
     const [selectedTools, setSelectedTools] = useState<string[]>([]);
-    const [selectedArticle, setSelectedArticle] = useState<DocArticle | null>(null);
-    const [isModalOpen, setIsModalOpen] = useState(false);
 
     const handleCategoryChange = (category: string) => {
         setSelectedCategory((prev) => (prev === category ? null : category));
@@ -31,16 +28,6 @@ const DocsPage = () => {
         setSelectedCategory(null);
         setSelectedTools([]);
         setSearchQuery('');
-    };
-
-    const handleArticleClick = (article: DocArticle) => {
-        setSelectedArticle(article);
-        setIsModalOpen(true);
-    };
-
-    const handleCloseModal = () => {
-        setIsModalOpen(false);
-        setTimeout(() => setSelectedArticle(null), 200);
     };
 
     const filteredArticles = useMemo(() => {
@@ -159,7 +146,6 @@ const DocsPage = () => {
                                                     <DocCard
                                                         key={article.id}
                                                         article={article}
-                                                        onClick={() => handleArticleClick(article)}
                                                     />
                                                 ))}
                                             </div>
@@ -183,13 +169,6 @@ const DocsPage = () => {
             </main>
 
             <Footer />
-
-            {/* Article Detail Modal */}
-            <DocDetailModal
-                article={selectedArticle}
-                isOpen={isModalOpen}
-                onClose={handleCloseModal}
-            />
         </div>
     );
 };

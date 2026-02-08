@@ -5,79 +5,91 @@
         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>https://ainsider.store/</loc>
-    <lastmod>2026-02-05</lastmod>
+    <lastmod>2026-02-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://ainsider.store/tools</loc>
-    <lastmod>2026-02-05</lastmod>
+    <lastmod>2026-02-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://ainsider.store/prompts</loc>
-    <lastmod>2026-02-05</lastmod>
+    <lastmod>2026-02-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/docs</loc>
+    <lastmod>2026-02-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://ainsider.store/blog</loc>
-    <lastmod>2026-02-05</lastmod>
+    <lastmod>2026-02-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/openai-codex</loc>
-    <lastmod>2026-02-05</lastmod>
+    <loc>https://ainsider.store/tools/zeely-ai</loc>
+    <lastmod>2026-02-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ainsider.store/tools/base44-2</loc>
-    <lastmod>2026-02-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/antigravity-skills</loc>
-    <lastmod>2026-02-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/zeely-ai</loc>
-    <lastmod>2026-02-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/openskills</loc>
-    <lastmod>2026-02-05</lastmod>
+    <lastmod>2026-02-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ainsider.store/tools/memu-2</loc>
-    <lastmod>2026-02-05</lastmod>
+    <lastmod>2026-02-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/skillkit</loc>
-    <lastmod>2026-02-05</lastmod>
+    <loc>https://ainsider.store/tools/antigravity-skills</loc>
+    <lastmod>2026-02-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ainsider.store/tools/riverflow</loc>
-    <lastmod>2026-02-05</lastmod>
+    <lastmod>2026-02-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/openskills</loc>
+    <lastmod>2026-02-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/skillkit</loc>
+    <lastmod>2026-02-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/openai-codex</loc>
+    <lastmod>2026-02-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ainsider.store/tools/thesysdev</loc>
     <lastmod>2025-12-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/companion-os</loc>
+    <lastmod>2025-12-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -94,19 +106,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/companion-os</loc>
-    <lastmod>2025-12-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/kapso</loc>
+    <loc>https://ainsider.store/tools/openreel</loc>
     <lastmod>2025-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/openreel</loc>
+    <loc>https://ainsider.store/tools/kapso</loc>
     <lastmod>2025-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -118,19 +124,19 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/openclaw</loc>
-    <lastmod>2025-12-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://ainsider.store/tools/minimax-agent</loc>
     <lastmod>2025-12-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/skills-sh</loc>
+    <loc>https://ainsider.store/tools/openclaw</loc>
+    <lastmod>2025-12-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/deepmode-2</loc>
     <lastmod>2025-12-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -142,13 +148,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/deepmode-2</loc>
+    <loc>https://ainsider.store/tools/skills-sh</loc>
     <lastmod>2025-12-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/vellum-ai</loc>
+    <loc>https://ainsider.store/tools/vibevoice</loc>
     <lastmod>2025-12-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -160,7 +166,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/vibevoice</loc>
+    <loc>https://ainsider.store/tools/vellum-ai</loc>
     <lastmod>2025-12-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -172,25 +178,25 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://ainsider.store/tools/antigravity</loc>
+    <lastmod>2025-12-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://ainsider.store/tools/opencode</loc>
     <lastmod>2025-12-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/antigravity-2</loc>
-    <lastmod>2025-12-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/grok-cli</loc>
+    <loc>https://ainsider.store/tools/live-docs</loc>
     <lastmod>2025-12-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/live-docs</loc>
+    <loc>https://ainsider.store/tools/grok-cli</loc>
     <lastmod>2025-12-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -220,19 +226,25 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/manus-chrome-extension-builder</loc>
-    <lastmod>2025-12-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://ainsider.store/tools/botpress-v12</loc>
     <lastmod>2025-12-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://ainsider.store/tools/manus-chrome-extension-builder</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://ainsider.store/tools/syllaby-2</loc>
+    <lastmod>2025-12-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/gemini-cli</loc>
     <lastmod>2025-12-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -245,12 +257,6 @@
   </url>
   <url>
     <loc>https://ainsider.store/tools/chatterbox-2</loc>
-    <lastmod>2025-12-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/gemini-cli</loc>
     <lastmod>2025-12-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -274,6 +280,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://ainsider.store/tools/viasocket</loc>
+    <lastmod>2025-12-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://ainsider.store/tools/tasklet-ai</loc>
     <lastmod>2025-12-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -286,19 +298,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/viasocket</loc>
-    <lastmod>2025-12-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/invideo-ai</loc>
+    <loc>https://ainsider.store/tools/alli-ai</loc>
     <lastmod>2025-12-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/alli-ai</loc>
+    <loc>https://ainsider.store/tools/invideo-ai</loc>
     <lastmod>2025-12-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -310,13 +316,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/luvvoice</loc>
+    <loc>https://ainsider.store/tools/autoglm</loc>
     <lastmod>2025-12-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/autoglm</loc>
+    <loc>https://ainsider.store/tools/luvvoice</loc>
     <lastmod>2025-12-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -342,12 +348,6 @@
   <url>
     <loc>https://ainsider.store/tools/meta-ai-2</loc>
     <lastmod>2025-11-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/antigravity</loc>
-    <lastmod>2025-11-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -454,12 +454,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/21stdev</loc>
-    <lastmod>2025-10-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://ainsider.store/tools/coplilotkit</loc>
     <lastmod>2025-10-11</lastmod>
     <changefreq>weekly</changefreq>
@@ -467,6 +461,12 @@
   </url>
   <url>
     <loc>https://ainsider.store/tools/weweb</loc>
+    <lastmod>2025-10-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/21stdev</loc>
     <lastmod>2025-10-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -490,13 +490,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/chatkit-studio</loc>
+    <loc>https://ainsider.store/tools/openai-agent-builder</loc>
     <lastmod>2025-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/openai-agent-builder</loc>
+    <loc>https://ainsider.store/tools/chatkit-studio</loc>
     <lastmod>2025-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -532,25 +532,25 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/scribbl</loc>
-    <lastmod>2025-09-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://ainsider.store/tools/liquid</loc>
     <lastmod>2025-09-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/wan-25</loc>
-    <lastmod>2025-09-28</lastmod>
+    <loc>https://ainsider.store/tools/scribbl</loc>
+    <lastmod>2025-09-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ainsider.store/tools/cloudflare-build</loc>
+    <lastmod>2025-09-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/wan-25</loc>
     <lastmod>2025-09-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -568,13 +568,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/microsoft-power-query</loc>
+    <loc>https://ainsider.store/tools/latitude</loc>
     <lastmod>2025-09-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/latitude</loc>
+    <loc>https://ainsider.store/tools/microsoft-power-query</loc>
     <lastmod>2025-09-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -610,7 +610,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/i10x</loc>
+    <loc>https://ainsider.store/tools/infranodus</loc>
     <lastmod>2025-09-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -622,7 +622,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/infranodus</loc>
+    <loc>https://ainsider.store/tools/i10x</loc>
     <lastmod>2025-09-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -634,13 +634,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/typeless</loc>
+    <loc>https://ainsider.store/tools/agentscope</loc>
     <lastmod>2025-09-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/agentscope</loc>
+    <loc>https://ainsider.store/tools/typeless</loc>
     <lastmod>2025-09-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -652,7 +652,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/emergent</loc>
+    <loc>https://ainsider.store/tools/tavily</loc>
     <lastmod>2025-09-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -664,13 +664,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/tavily</loc>
+    <loc>https://ainsider.store/tools/huggin</loc>
     <lastmod>2025-09-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/huggin</loc>
+    <loc>https://ainsider.store/tools/emergent</loc>
     <lastmod>2025-09-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -682,13 +682,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/activepieces</loc>
+    <loc>https://ainsider.store/tools/simstudio</loc>
     <lastmod>2025-09-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/simstudio</loc>
+    <loc>https://ainsider.store/tools/activepieces</loc>
     <lastmod>2025-09-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -712,13 +712,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/claude-code</loc>
+    <loc>https://ainsider.store/tools/orchids</loc>
     <lastmod>2025-09-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/orchids</loc>
+    <loc>https://ainsider.store/tools/claude-code</loc>
     <lastmod>2025-09-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -736,13 +736,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/vibecodeapp</loc>
+    <loc>https://ainsider.store/tools/genspark-designer</loc>
     <lastmod>2025-08-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/genspark-designer</loc>
+    <loc>https://ainsider.store/tools/vibecodeapp</loc>
     <lastmod>2025-08-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -802,13 +802,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/qwen-image-editing</loc>
+    <loc>https://ainsider.store/tools/flowstep</loc>
     <lastmod>2025-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/flowstep</loc>
+    <loc>https://ainsider.store/tools/qwen-image-editing</loc>
     <lastmod>2025-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -832,13 +832,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/httpsgithubcombytedanceui-tars-desktop</loc>
+    <loc>https://ainsider.store/tools/blinknew</loc>
     <lastmod>2025-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/blinknew</loc>
+    <loc>https://ainsider.store/tools/httpsgithubcombytedanceui-tars-desktop</loc>
     <lastmod>2025-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -856,7 +856,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/jan-v1</loc>
+    <loc>https://ainsider.store/tools/memu</loc>
     <lastmod>2025-08-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -868,13 +868,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/memu</loc>
+    <loc>https://ainsider.store/tools/jan-v1</loc>
     <lastmod>2025-08-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/graphiti</loc>
+    <loc>https://ainsider.store/tools/airtop</loc>
     <lastmod>2025-08-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -886,7 +886,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/airtop</loc>
+    <loc>https://ainsider.store/tools/graphiti</loc>
     <lastmod>2025-08-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -898,13 +898,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/kilo-code</loc>
+    <loc>https://ainsider.store/tools/xpander-ai</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/xpander-ai</loc>
+    <loc>https://ainsider.store/tools/kilo-code</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -922,18 +922,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/origin-ai-2</loc>
-    <lastmod>2025-08-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/flyde</loc>
-    <lastmod>2025-08-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://ainsider.store/tools/akool</loc>
     <lastmod>2025-08-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -946,13 +934,25 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/leapnew</loc>
-    <lastmod>2025-08-02</lastmod>
+    <loc>https://ainsider.store/tools/origin-ai-2</loc>
+    <lastmod>2025-08-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/flyde</loc>
+    <lastmod>2025-08-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ainsider.store/tools/opal-from-google</loc>
+    <lastmod>2025-08-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/leapnew</loc>
     <lastmod>2025-08-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -970,13 +970,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/nuope</loc>
+    <loc>https://ainsider.store/tools/string</loc>
     <lastmod>2025-07-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/string</loc>
+    <loc>https://ainsider.store/tools/nuope</loc>
     <lastmod>2025-07-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -984,12 +984,6 @@
   <url>
     <loc>https://ainsider.store/tools/zai</loc>
     <lastmod>2025-07-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/stitch</loc>
-    <lastmod>2025-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1006,19 +1000,25 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://ainsider.store/tools/stitch</loc>
+    <lastmod>2025-07-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://ainsider.store/tools/relume</loc>
     <lastmod>2025-07-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/github-spark</loc>
+    <loc>https://ainsider.store/tools/easyedit</loc>
     <lastmod>2025-07-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/easyedit</loc>
+    <loc>https://ainsider.store/tools/github-spark</loc>
     <lastmod>2025-07-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1036,26 +1036,14 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/musicgpt</loc>
-    <lastmod>2025-07-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://ainsider.store/tools/context7</loc>
     <lastmod>2025-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/tempo</loc>
-    <lastmod>2025-07-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/pipedream</loc>
-    <lastmod>2025-07-16</lastmod>
+    <loc>https://ainsider.store/tools/musicgpt</loc>
+    <lastmod>2025-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1072,20 +1060,20 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://ainsider.store/tools/tempo</loc>
+    <lastmod>2025-07-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/pipedream</loc>
+    <lastmod>2025-07-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://ainsider.store/tools/smithery</loc>
     <lastmod>2025-07-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/n8n-mcp</loc>
-    <lastmod>2025-07-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/clara</loc>
-    <lastmod>2025-07-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1097,6 +1085,18 @@
   </url>
   <url>
     <loc>https://ainsider.store/tools/mcp-servers-git-repo</loc>
+    <lastmod>2025-07-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/n8n-mcp</loc>
+    <lastmod>2025-07-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/clara</loc>
     <lastmod>2025-07-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1120,7 +1120,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/warmwind</loc>
+    <loc>https://ainsider.store/tools/autotab-2</loc>
     <lastmod>2025-07-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1132,7 +1132,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/autotab-2</loc>
+    <loc>https://ainsider.store/tools/warmwind</loc>
     <lastmod>2025-07-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1150,19 +1150,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/musesteeamer</loc>
-    <lastmod>2025-07-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/unmute</loc>
-    <lastmod>2025-07-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/commandnew</loc>
+    <loc>https://ainsider.store/tools/magnitude</loc>
     <lastmod>2025-07-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1174,13 +1162,25 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/magnitude</loc>
+    <loc>https://ainsider.store/tools/commandnew</loc>
     <lastmod>2025-07-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/quickagent-2</loc>
+    <loc>https://ainsider.store/tools/unmute</loc>
+    <lastmod>2025-07-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/musesteeamer</loc>
+    <lastmod>2025-07-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/mem</loc>
     <lastmod>2025-07-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1192,7 +1192,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/mem</loc>
+    <loc>https://ainsider.store/tools/quickagent-2</loc>
     <lastmod>2025-07-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1294,13 +1294,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/weavy-ai</loc>
+    <loc>https://ainsider.store/tools/numerous-ai</loc>
     <lastmod>2025-06-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/numerous-ai</loc>
+    <loc>https://ainsider.store/tools/weavy-ai</loc>
     <lastmod>2025-06-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1312,13 +1312,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/rocket-new</loc>
+    <loc>https://ainsider.store/tools/supa-ai</loc>
     <lastmod>2025-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/supa-ai</loc>
+    <loc>https://ainsider.store/tools/rocket-new</loc>
     <lastmod>2025-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1336,7 +1336,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/mixo-ai</loc>
+    <loc>https://ainsider.store/tools/clipzap</loc>
     <lastmod>2025-06-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1348,19 +1348,19 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/clipzap</loc>
+    <loc>https://ainsider.store/tools/mixo-ai</loc>
     <lastmod>2025-06-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/ragflow</loc>
+    <loc>https://ainsider.store/tools/yourmov</loc>
     <lastmod>2025-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/yourmov</loc>
+    <loc>https://ainsider.store/tools/ragflow</loc>
     <lastmod>2025-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1444,12 +1444,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/galaxy-ai</loc>
-    <lastmod>2025-05-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://ainsider.store/tools/makeugc</loc>
     <lastmod>2025-05-21</lastmod>
     <changefreq>weekly</changefreq>
@@ -1462,13 +1456,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/overlap-ai</loc>
-    <lastmod>2025-05-20</lastmod>
+    <loc>https://ainsider.store/tools/galaxy-ai</loc>
+    <lastmod>2025-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/flowith-ai</loc>
+    <loc>https://ainsider.store/tools/overlap-ai</loc>
     <lastmod>2025-05-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1480,19 +1474,25 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://ainsider.store/tools/flowith-ai</loc>
+    <lastmod>2025-05-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://ainsider.store/tools/deepagent-from-abacus</loc>
     <lastmod>2025-05-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/highfield-ads</loc>
+    <loc>https://ainsider.store/tools/enhancor</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/enhancor</loc>
+    <loc>https://ainsider.store/tools/highfield-ads</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1504,7 +1504,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/ag-ui</loc>
+    <loc>https://ainsider.store/tools/cyanite-ai</loc>
     <lastmod>2025-05-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1516,7 +1516,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/cyanite-ai</loc>
+    <loc>https://ainsider.store/tools/ag-ui</loc>
     <lastmod>2025-05-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1540,13 +1540,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/gumloop</loc>
+    <loc>https://ainsider.store/tools/coze</loc>
     <lastmod>2025-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/coze</loc>
+    <loc>https://ainsider.store/tools/gumloop</loc>
     <lastmod>2025-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1582,7 +1582,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/clova</loc>
+    <loc>https://ainsider.store/tools/mem0ai</loc>
     <lastmod>2025-05-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1594,7 +1594,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/mem0ai</loc>
+    <loc>https://ainsider.store/tools/clova</loc>
     <lastmod>2025-05-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1606,7 +1606,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/instant-character</loc>
+    <loc>https://ainsider.store/tools/adaptive</loc>
     <lastmod>2025-04-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1618,7 +1618,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/adaptive</loc>
+    <loc>https://ainsider.store/tools/instant-character</loc>
     <lastmod>2025-04-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1630,7 +1630,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/minimax</loc>
+    <loc>https://ainsider.store/tools/seedream-30-from-dreamina</loc>
     <lastmod>2025-04-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1642,7 +1642,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/seedream-30-from-dreamina</loc>
+    <loc>https://ainsider.store/tools/minimax</loc>
     <lastmod>2025-04-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1654,13 +1654,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/blotato</loc>
+    <loc>https://ainsider.store/tools/artificial-analysis</loc>
     <lastmod>2025-04-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/artificial-analysis</loc>
+    <loc>https://ainsider.store/tools/blotato</loc>
     <lastmod>2025-04-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1720,12 +1720,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/firebase-studio</loc>
-    <lastmod>2025-04-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://ainsider.store/tools/generatech</loc>
     <lastmod>2025-04-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -1733,6 +1727,12 @@
   </url>
   <url>
     <loc>https://ainsider.store/tools/cline</loc>
+    <lastmod>2025-04-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/firebase-studio</loc>
     <lastmod>2025-04-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1768,6 +1768,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://ainsider.store/tools/vectorshift</loc>
+    <lastmod>2025-04-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://ainsider.store/tools/browserbase</loc>
     <lastmod>2025-04-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -1775,12 +1781,6 @@
   </url>
   <url>
     <loc>https://ainsider.store/tools/argil-ai-influencers</loc>
-    <lastmod>2025-04-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/vectorshift</loc>
     <lastmod>2025-04-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1816,14 +1816,26 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://ainsider.store/tools/bytedance-ininiteyou</loc>
+    <lastmod>2025-03-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://ainsider.store/tools/gpt-4o-image-gen</loc>
     <lastmod>2025-03-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/bytedance-ininiteyou</loc>
-    <lastmod>2025-03-26</lastmod>
+    <loc>https://ainsider.store/tools/expertise-ai</loc>
+    <lastmod>2025-03-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/reve</loc>
+    <lastmod>2025-03-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1840,43 +1852,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/reve</loc>
-    <lastmod>2025-03-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://ainsider.store/tools/topview</loc>
     <lastmod>2025-03-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/expertise-ai</loc>
-    <lastmod>2025-03-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/builder-io</loc>
-    <lastmod>2025-03-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/wisprflow</loc>
-    <lastmod>2025-03-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://ainsider.store/tools/podcastle</loc>
-    <lastmod>2025-03-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/pacdora-2</loc>
     <lastmod>2025-03-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1888,7 +1870,25 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/recraft</loc>
+    <loc>https://ainsider.store/tools/pacdora-2</loc>
+    <lastmod>2025-03-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/wisprflow</loc>
+    <lastmod>2025-03-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/builder-io</loc>
+    <lastmod>2025-03-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/gpt-ui</loc>
     <lastmod>2025-03-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1900,19 +1900,19 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/gpt-ui</loc>
+    <loc>https://ainsider.store/tools/recraft</loc>
     <lastmod>2025-03-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/fireworks</loc>
+    <loc>https://ainsider.store/tools/ozone-pro</loc>
     <lastmod>2025-03-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/ozone-pro</loc>
+    <loc>https://ainsider.store/tools/fireworks</loc>
     <lastmod>2025-03-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1930,13 +1930,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/imagine-art</loc>
+    <loc>https://ainsider.store/tools/novita-ai</loc>
     <lastmod>2025-03-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/novita-ai</loc>
+    <loc>https://ainsider.store/tools/imagine-art</loc>
     <lastmod>2025-03-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1978,6 +1978,18 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://ainsider.store/tools/mastra</loc>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/hume</loc>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://ainsider.store/tools/doji</loc>
     <lastmod>2025-03-01</lastmod>
     <changefreq>weekly</changefreq>
@@ -1990,19 +2002,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/hume</loc>
-    <lastmod>2025-03-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://ainsider.store/tools/jittervideo</loc>
-    <lastmod>2025-03-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/mastra</loc>
     <lastmod>2025-03-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -2068,13 +2068,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/artbreeder</loc>
+    <loc>https://ainsider.store/tools/dreamina-ai-2</loc>
     <lastmod>2025-02-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/dreamina-ai-2</loc>
+    <loc>https://ainsider.store/tools/artbreeder</loc>
     <lastmod>2025-02-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -2104,25 +2104,19 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/kimi-ai-2</loc>
-    <lastmod>2025-02-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://ainsider.store/tools/softgen-2</loc>
     <lastmod>2025-02-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/tavily-ai</loc>
-    <lastmod>2025-02-01</lastmod>
+    <loc>https://ainsider.store/tools/kimi-ai-2</loc>
+    <lastmod>2025-02-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/guidde</loc>
+    <loc>https://ainsider.store/tools/kimi-ai</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -2140,13 +2134,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/dubble</loc>
-    <lastmod>2025-02-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/kimi-ai</loc>
+    <loc>https://ainsider.store/tools/tavily-ai</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -2158,19 +2146,31 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://ainsider.store/tools/guidde</loc>
+    <lastmod>2025-02-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/dubble</loc>
+    <lastmod>2025-02-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://ainsider.store/tools/llm-api-engine</loc>
     <lastmod>2025-01-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/riffusion</loc>
+    <loc>https://ainsider.store/tools/qwen-max-25</loc>
     <lastmod>2025-01-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/qwen-max-25</loc>
+    <loc>https://ainsider.store/tools/riffusion</loc>
     <lastmod>2025-01-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -2188,7 +2188,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/qodo</loc>
+    <loc>https://ainsider.store/tools/janus-pro-7b</loc>
+    <lastmod>2025-01-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/gooseai</loc>
     <lastmod>2025-01-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -2200,13 +2206,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/janus-pro-7b</loc>
-    <lastmod>2025-01-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/yue</loc>
+    <loc>https://ainsider.store/tools/qodo</loc>
     <lastmod>2025-01-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -2218,7 +2218,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/gooseai</loc>
+    <loc>https://ainsider.store/tools/yue</loc>
     <lastmod>2025-01-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -2242,7 +2242,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/assembly-ai</loc>
+    <loc>https://ainsider.store/tools/sembly-ai</loc>
     <lastmod>2025-01-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -2254,7 +2254,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/sembly-ai</loc>
+    <loc>https://ainsider.store/tools/assembly-ai</loc>
     <lastmod>2025-01-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -2308,12 +2308,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/usemotion</loc>
-    <lastmod>2025-01-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://ainsider.store/tools/freepik-mockups</loc>
     <lastmod>2025-01-17</lastmod>
     <changefreq>weekly</changefreq>
@@ -2321,6 +2315,12 @@
   </url>
   <url>
     <loc>https://ainsider.store/tools/latenode</loc>
+    <lastmod>2025-01-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/usemotion</loc>
     <lastmod>2025-01-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -2344,6 +2344,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://ainsider.store/tools/kokoro</loc>
+    <lastmod>2025-01-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://ainsider.store/tools/awesome-llm-apps</loc>
     <lastmod>2025-01-14</lastmod>
     <changefreq>weekly</changefreq>
@@ -2356,26 +2362,8 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/kokoro</loc>
-    <lastmod>2025-01-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://ainsider.store/tools/edraw-ai</loc>
     <lastmod>2025-01-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/fotor-mockups</loc>
-    <lastmod>2025-01-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/ls-graphics</loc>
-    <lastmod>2025-01-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2387,6 +2375,18 @@
   </url>
   <url>
     <loc>https://ainsider.store/tools/visme</loc>
+    <lastmod>2025-01-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/fotor-mockups</loc>
+    <lastmod>2025-01-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/ls-graphics</loc>
     <lastmod>2025-01-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -2416,13 +2416,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/browser-use</loc>
+    <loc>https://ainsider.store/tools/midscene</loc>
     <lastmod>2025-01-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/midscene</loc>
+    <loc>https://ainsider.store/tools/browser-use</loc>
     <lastmod>2025-01-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -2470,7 +2470,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/expodev</loc>
+    <loc>https://ainsider.store/tools/chromastudio</loc>
     <lastmod>2024-12-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -2482,7 +2482,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/chromastudio</loc>
+    <loc>https://ainsider.store/tools/expodev</loc>
     <lastmod>2024-12-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -2494,13 +2494,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/upscale-image</loc>
+    <loc>https://ainsider.store/tools/granola</loc>
     <lastmod>2024-12-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/granola</loc>
+    <loc>https://ainsider.store/tools/upscale-image</loc>
     <lastmod>2024-12-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -2524,13 +2524,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/voiceflow-voice-agent</loc>
+    <loc>https://ainsider.store/tools/sora-ai</loc>
     <lastmod>2024-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/sora-ai</loc>
+    <loc>https://ainsider.store/tools/voiceflow-voice-agent</loc>
     <lastmod>2024-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -2548,6 +2548,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://ainsider.store/tools/semrush</loc>
+    <lastmod>2024-12-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://ainsider.store/tools/hubspot</loc>
     <lastmod>2024-12-07</lastmod>
     <changefreq>weekly</changefreq>
@@ -2555,24 +2561,6 @@
   </url>
   <url>
     <loc>https://ainsider.store/tools/seo-ai</loc>
-    <lastmod>2024-12-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/elevenreader</loc>
-    <lastmod>2024-12-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/ahrefs</loc>
-    <lastmod>2024-12-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/semrush</loc>
     <lastmod>2024-12-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -2602,14 +2590,20 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/happyrobot</loc>
-    <lastmod>2024-12-05</lastmod>
+    <loc>https://ainsider.store/tools/elevenreader</loc>
+    <lastmod>2024-12-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/tencent-hanyuan</loc>
-    <lastmod>2024-12-04</lastmod>
+    <loc>https://ainsider.store/tools/ahrefs</loc>
+    <lastmod>2024-12-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/happyrobot</loc>
+    <lastmod>2024-12-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2620,8 +2614,8 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/ic-light</loc>
-    <lastmod>2024-12-02</lastmod>
+    <loc>https://ainsider.store/tools/tencent-hanyuan</loc>
+    <lastmod>2024-12-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2632,7 +2626,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/kestra</loc>
+    <loc>https://ainsider.store/tools/ic-light</loc>
+    <lastmod>2024-12-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/pabbly-connect</loc>
     <lastmod>2024-11-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -2644,20 +2644,8 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/pabbly-connect</loc>
+    <loc>https://ainsider.store/tools/kestra</loc>
     <lastmod>2024-11-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/mymap-ai</loc>
-    <lastmod>2024-11-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/miro</loc>
-    <lastmod>2024-11-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2668,7 +2656,19 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://ainsider.store/tools/mymap-ai</loc>
+    <lastmod>2024-11-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://ainsider.store/tools/whimsical</loc>
+    <lastmod>2024-11-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/miro</loc>
     <lastmod>2024-11-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -2692,20 +2692,14 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/pollo-ai</loc>
-    <lastmod>2024-11-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://ainsider.store/tools/immersity</loc>
     <lastmod>2024-11-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/scenario-ai</loc>
-    <lastmod>2024-11-25</lastmod>
+    <loc>https://ainsider.store/tools/pollo-ai</loc>
+    <lastmod>2024-11-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2716,8 +2710,8 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/arcads-ai</loc>
-    <lastmod>2024-11-24</lastmod>
+    <loc>https://ainsider.store/tools/scenario-ai</loc>
+    <lastmod>2024-11-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2728,13 +2722,19 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/edify</loc>
-    <lastmod>2024-11-23</lastmod>
+    <loc>https://ainsider.store/tools/arcads-ai</loc>
+    <lastmod>2024-11-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ainsider.store/tools/reflex-dev</loc>
+    <lastmod>2024-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/edify</loc>
     <lastmod>2024-11-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -2746,13 +2746,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/lovable</loc>
+    <loc>https://ainsider.store/tools/freepik-ai-suite</loc>
     <lastmod>2024-11-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/freepik-ai-suite</loc>
+    <loc>https://ainsider.store/tools/lovable</loc>
     <lastmod>2024-11-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -2770,13 +2770,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/adobe-express</loc>
+    <loc>https://ainsider.store/tools/neural-frames</loc>
     <lastmod>2024-11-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/neural-frames</loc>
+    <loc>https://ainsider.store/tools/adobe-express</loc>
     <lastmod>2024-11-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -2788,13 +2788,19 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://ainsider.store/tools/artflow</loc>
+    <lastmod>2024-11-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://ainsider.store/tools/huggingface-chatui</loc>
     <lastmod>2024-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/hf-autotrain</loc>
+    <loc>https://ainsider.store/tools/sync-2</loc>
     <lastmod>2024-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -2806,13 +2812,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/artflow</loc>
-    <lastmod>2024-11-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/sync-2</loc>
+    <loc>https://ainsider.store/tools/hf-autotrain</loc>
     <lastmod>2024-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -2830,13 +2830,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/readai</loc>
+    <loc>https://ainsider.store/tools/vidyoai</loc>
     <lastmod>2024-11-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/vidyoai</loc>
+    <loc>https://ainsider.store/tools/readai</loc>
     <lastmod>2024-11-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -2866,7 +2866,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/omnigen</loc>
+    <loc>https://ainsider.store/tools/grok</loc>
     <lastmod>2024-11-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -2878,7 +2878,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/grok</loc>
+    <loc>https://ainsider.store/tools/omnigen</loc>
     <lastmod>2024-11-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -2890,25 +2890,19 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/julius</loc>
-    <lastmod>2024-11-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://ainsider.store/tools/copycopter</loc>
     <lastmod>2024-11-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/llama</loc>
-    <lastmod>2024-11-08</lastmod>
+    <loc>https://ainsider.store/tools/julius</loc>
+    <lastmod>2024-11-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/mistral-ai-agent-2</loc>
+    <loc>https://ainsider.store/tools/compute-from-hyperspace</loc>
     <lastmod>2024-11-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -2920,7 +2914,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/compute-from-hyperspace</loc>
+    <loc>https://ainsider.store/tools/llama</loc>
+    <lastmod>2024-11-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/mistral-ai-agent-2</loc>
     <lastmod>2024-11-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -2938,49 +2938,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/blendbox</loc>
-    <lastmod>2024-11-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://ainsider.store/tools/perplexity-pages</loc>
     <lastmod>2024-11-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/codeium</loc>
-    <lastmod>2024-11-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/httppoecom-personal-assitant</loc>
-    <lastmod>2024-11-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/tracezip</loc>
-    <lastmod>2024-11-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/google-ai-studio</loc>
-    <lastmod>2024-11-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/hugginface-assistants</loc>
-    <lastmod>2024-11-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/html-rev</loc>
+    <loc>https://ainsider.store/tools/httpyoucom-agents</loc>
     <lastmod>2024-11-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -2992,7 +2956,43 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/httpyoucom-agents</loc>
+    <loc>https://ainsider.store/tools/html-rev</loc>
+    <lastmod>2024-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/hugginface-assistants</loc>
+    <lastmod>2024-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/google-ai-studio</loc>
+    <lastmod>2024-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/blendbox</loc>
+    <lastmod>2024-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/httppoecom-personal-assitant</loc>
+    <lastmod>2024-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/codeium</loc>
+    <lastmod>2024-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/tracezip</loc>
     <lastmod>2024-11-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -3034,6 +3034,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://ainsider.store/tools/glbgpt</loc>
+    <lastmod>2024-10-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://ainsider.store/tools/pearai</loc>
     <lastmod>2024-10-30</lastmod>
     <changefreq>weekly</changefreq>
@@ -3046,13 +3052,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/glbgpt</loc>
-    <lastmod>2024-10-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/pinokio-computer</loc>
+    <loc>https://ainsider.store/tools/elevenlabs-voice-agent</loc>
     <lastmod>2024-10-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -3064,7 +3064,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/elevenlabs-voice-agent</loc>
+    <loc>https://ainsider.store/tools/pinokio-computer</loc>
     <lastmod>2024-10-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -3076,13 +3076,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/facefusion</loc>
+    <loc>https://ainsider.store/tools/sudocode</loc>
     <lastmod>2024-10-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/sudocode</loc>
+    <loc>https://ainsider.store/tools/facefusion</loc>
     <lastmod>2024-10-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -3100,6 +3100,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://ainsider.store/tools/storm</loc>
+    <lastmod>2024-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://ainsider.store/tools/restack</loc>
     <lastmod>2024-10-26</lastmod>
     <changefreq>weekly</changefreq>
@@ -3112,25 +3118,19 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/storm</loc>
-    <lastmod>2024-10-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://ainsider.store/tools/eyeris</loc>
     <lastmod>2024-10-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/stable-video-at-hf</loc>
+    <loc>https://ainsider.store/tools/compose-ai</loc>
     <lastmod>2024-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/tad-ai</loc>
+    <loc>https://ainsider.store/tools/stable-video-at-hf</loc>
     <lastmod>2024-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -3142,19 +3142,19 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/compose-ai</loc>
+    <loc>https://ainsider.store/tools/tad-ai</loc>
     <lastmod>2024-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/aiease</loc>
+    <loc>https://ainsider.store/tools/baseai</loc>
     <lastmod>2024-10-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/baseai</loc>
+    <loc>https://ainsider.store/tools/aiease</loc>
     <lastmod>2024-10-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -3202,13 +3202,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/eachlabs</loc>
+    <loc>https://ainsider.store/tools/bolt</loc>
     <lastmod>2024-10-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/bolt</loc>
+    <loc>https://ainsider.store/tools/eachlabs</loc>
     <lastmod>2024-10-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -3280,20 +3280,14 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/pebblely</loc>
-    <lastmod>2024-09-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://ainsider.store/tools/vidu</loc>
     <lastmod>2024-09-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/graphy</loc>
-    <lastmod>2024-09-27</lastmod>
+    <loc>https://ainsider.store/tools/pebblely</loc>
+    <lastmod>2024-09-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -3304,13 +3298,19 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/qreates</loc>
-    <lastmod>2024-09-26</lastmod>
+    <loc>https://ainsider.store/tools/graphy</loc>
+    <lastmod>2024-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ainsider.store/tools/prome-ai</loc>
+    <lastmod>2024-09-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/qreates</loc>
     <lastmod>2024-09-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -3334,25 +3334,25 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/editpro-ai</loc>
-    <lastmod>2024-09-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://ainsider.store/tools/notdiamond-chat</loc>
     <lastmod>2024-09-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/simplicity</loc>
-    <lastmod>2024-09-19</lastmod>
+    <loc>https://ainsider.store/tools/editpro-ai</loc>
+    <lastmod>2024-09-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ainsider.store/tools/viva</loc>
+    <lastmod>2024-09-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/simplicity</loc>
     <lastmod>2024-09-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -3400,13 +3400,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/zed-dev</loc>
+    <loc>https://ainsider.store/tools/plusdocs</loc>
     <lastmod>2024-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/plusdocs</loc>
+    <loc>https://ainsider.store/tools/zed-dev</loc>
     <lastmod>2024-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -3442,6 +3442,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://ainsider.store/tools/supermaven</loc>
+    <lastmod>2024-08-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://ainsider.store/tools/n8n-ai-starter-kit</loc>
     <lastmod>2024-08-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -3449,12 +3455,6 @@
   </url>
   <url>
     <loc>https://ainsider.store/tools/whisper-jax</loc>
-    <lastmod>2024-08-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/supermaven</loc>
     <lastmod>2024-08-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -3496,6 +3496,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://ainsider.store/tools/firecrawl</loc>
+    <lastmod>2024-08-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://ainsider.store/tools/surfsup</loc>
     <lastmod>2024-08-16</lastmod>
     <changefreq>weekly</changefreq>
@@ -3503,12 +3509,6 @@
   </url>
   <url>
     <loc>https://ainsider.store/tools/invoke</loc>
-    <lastmod>2024-08-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/firecrawl</loc>
     <lastmod>2024-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -3532,13 +3532,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/shuffledev</loc>
+    <loc>https://ainsider.store/tools/chatplayground</loc>
     <lastmod>2024-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/chatplayground</loc>
+    <loc>https://ainsider.store/tools/shuffledev</loc>
     <lastmod>2024-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -3556,13 +3556,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/callfluent</loc>
+    <loc>https://ainsider.store/tools/sync</loc>
     <lastmod>2024-08-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/sync</loc>
+    <loc>https://ainsider.store/tools/callfluent</loc>
     <lastmod>2024-08-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -3598,13 +3598,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/metaai-sam2</loc>
+    <loc>https://ainsider.store/tools/snov</loc>
     <lastmod>2024-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/snov</loc>
+    <loc>https://ainsider.store/tools/metaai-sam2</loc>
     <lastmod>2024-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -3628,7 +3628,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/banner-bear</loc>
+    <loc>https://ainsider.store/tools/api-template</loc>
     <lastmod>2024-07-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -3640,7 +3640,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/api-template</loc>
+    <loc>https://ainsider.store/tools/banner-bear</loc>
     <lastmod>2024-07-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -3676,6 +3676,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://ainsider.store/tools/openvoicechat</loc>
+    <lastmod>2024-07-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://ainsider.store/tools/narakeet</loc>
     <lastmod>2024-07-20</lastmod>
     <changefreq>weekly</changefreq>
@@ -3688,19 +3694,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/openvoicechat</loc>
-    <lastmod>2024-07-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://ainsider.store/tools/exactlyai</loc>
     <lastmod>2024-07-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/jina-reader</loc>
+    <loc>https://ainsider.store/tools/alice-ai</loc>
     <lastmod>2024-07-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -3712,7 +3712,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/alice-ai</loc>
+    <loc>https://ainsider.store/tools/jina-reader</loc>
     <lastmod>2024-07-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -3754,20 +3754,14 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/nomic-gpt4all</loc>
-    <lastmod>2024-07-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://ainsider.store/tools/captions</loc>
     <lastmod>2024-07-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/pacdora</loc>
-    <lastmod>2024-07-03</lastmod>
+    <loc>https://ainsider.store/tools/nomic-gpt4all</loc>
+    <lastmod>2024-07-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -3779,6 +3773,12 @@
   </url>
   <url>
     <loc>https://ainsider.store/tools/workato</loc>
+    <lastmod>2024-07-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/pacdora</loc>
     <lastmod>2024-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -3886,12 +3886,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/submagic</loc>
-    <lastmod>2024-05-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://ainsider.store/tools/supertone-ai</loc>
     <lastmod>2024-05-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -3904,13 +3898,19 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/astria-ai</loc>
+    <loc>https://ainsider.store/tools/submagic</loc>
     <lastmod>2024-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ainsider.store/tools/idm-vton</loc>
+    <lastmod>2024-05-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/astria-ai</loc>
     <lastmod>2024-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -3982,6 +3982,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://ainsider.store/tools/fooocus</loc>
+    <lastmod>2024-04-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://ainsider.store/tools/basedlabs</loc>
     <lastmod>2024-04-10</lastmod>
     <changefreq>weekly</changefreq>
@@ -3989,12 +3995,6 @@
   </url>
   <url>
     <loc>https://ainsider.store/tools/envokeai</loc>
-    <lastmod>2024-04-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/fooocus</loc>
     <lastmod>2024-04-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -4012,13 +4012,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/deepmode</loc>
+    <loc>https://ainsider.store/tools/genesys</loc>
     <lastmod>2024-04-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/genesys</loc>
+    <loc>https://ainsider.store/tools/deepmode</loc>
     <lastmod>2024-04-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -4054,6 +4054,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://ainsider.store/tools/aiphone</loc>
+    <lastmod>2024-03-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://ainsider.store/tools/glambase</loc>
     <lastmod>2024-03-21</lastmod>
     <changefreq>weekly</changefreq>
@@ -4061,12 +4067,6 @@
   </url>
   <url>
     <loc>https://ainsider.store/tools/voice-air</loc>
-    <lastmod>2024-03-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/aiphone</loc>
     <lastmod>2024-03-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -4102,42 +4102,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/comfyui</loc>
-    <lastmod>2024-03-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/fotor</loc>
-    <lastmod>2024-03-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/anakinai</loc>
-    <lastmod>2024-03-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/vondy-ai</loc>
-    <lastmod>2024-03-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/nightcafe</loc>
-    <lastmod>2024-03-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/tengr-ai</loc>
-    <lastmod>2024-03-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://ainsider.store/tools/quickvideo</loc>
     <lastmod>2024-03-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -4150,13 +4114,49 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/synthesis</loc>
-    <lastmod>2024-03-05</lastmod>
+    <loc>https://ainsider.store/tools/tengr-ai</loc>
+    <lastmod>2024-03-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/nightcafe</loc>
+    <lastmod>2024-03-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/vondy-ai</loc>
+    <lastmod>2024-03-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/anakinai</loc>
+    <lastmod>2024-03-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/comfyui</loc>
+    <lastmod>2024-03-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/fotor</loc>
+    <lastmod>2024-03-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ainsider.store/tools/synthgpt</loc>
+    <lastmod>2024-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/synthesis</loc>
     <lastmod>2024-03-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -4168,19 +4168,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/manychat</loc>
-    <lastmod>2024-02-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/chatbots-ui-list</loc>
-    <lastmod>2024-02-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://ainsider.store/tools/octaneai</loc>
+    <lastmod>2024-02-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/emo</loc>
     <lastmod>2024-02-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -4192,7 +4186,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/emo</loc>
+    <loc>https://ainsider.store/tools/chatbots-ui-list</loc>
+    <lastmod>2024-02-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/manychat</loc>
     <lastmod>2024-02-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -4216,13 +4216,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/pop-ai</loc>
+    <loc>https://ainsider.store/tools/affinepro</loc>
     <lastmod>2024-02-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/affinepro</loc>
+    <loc>https://ainsider.store/tools/pop-ai</loc>
     <lastmod>2024-02-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -4270,7 +4270,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/mockey</loc>
+    <loc>https://ainsider.store/tools/placeit</loc>
     <lastmod>2024-02-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -4282,7 +4282,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/placeit</loc>
+    <loc>https://ainsider.store/tools/mockey</loc>
     <lastmod>2024-02-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -4312,13 +4312,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/chatsimple</loc>
+    <loc>https://ainsider.store/tools/codewp</loc>
     <lastmod>2024-02-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/codewp</loc>
+    <loc>https://ainsider.store/tools/chatsimple</loc>
     <lastmod>2024-02-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -4326,24 +4326,6 @@
   <url>
     <loc>https://ainsider.store/tools/getresponse</loc>
     <lastmod>2024-02-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/kickresume</loc>
-    <lastmod>2024-02-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/trickle</loc>
-    <lastmod>2024-02-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/hugginface-chat-assistant</loc>
-    <lastmod>2024-02-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -4360,13 +4342,31 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/dify-ai</loc>
-    <lastmod>2024-02-01</lastmod>
+    <loc>https://ainsider.store/tools/hugginface-chat-assistant</loc>
+    <lastmod>2024-02-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/kickresume</loc>
+    <lastmod>2024-02-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/trickle</loc>
+    <lastmod>2024-02-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ainsider.store/tools/elevenlabs</loc>
+    <lastmod>2024-02-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/dify-ai</loc>
     <lastmod>2024-02-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -4378,13 +4378,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/casette-ai</loc>
+    <loc>https://ainsider.store/tools/httpmixaudio</loc>
     <lastmod>2024-01-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/httpmixaudio</loc>
+    <loc>https://ainsider.store/tools/casette-ai</loc>
     <lastmod>2024-01-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -4396,12 +4396,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/browseai</loc>
-    <lastmod>2024-01-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://ainsider.store/tools/axiom</loc>
     <lastmod>2024-01-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -4409,6 +4403,12 @@
   </url>
   <url>
     <loc>https://ainsider.store/tools/multion</loc>
+    <lastmod>2024-01-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/browseai</loc>
     <lastmod>2024-01-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -4432,13 +4432,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/rundiffusion</loc>
+    <loc>https://ainsider.store/tools/nexart</loc>
     <lastmod>2024-01-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/nexart</loc>
+    <loc>https://ainsider.store/tools/rundiffusion</loc>
     <lastmod>2024-01-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -4480,6 +4480,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://ainsider.store/tools/codiumai</loc>
+    <lastmod>2024-01-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://ainsider.store/tools/collovai</loc>
     <lastmod>2024-01-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -4492,13 +4498,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/codiumai</loc>
-    <lastmod>2024-01-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/otter-ai</loc>
+    <loc>https://ainsider.store/tools/wordtune</loc>
     <lastmod>2024-01-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -4510,13 +4510,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/wordtune</loc>
+    <loc>https://ainsider.store/tools/harpaai</loc>
     <lastmod>2024-01-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/harpaai</loc>
+    <loc>https://ainsider.store/tools/otter-ai</loc>
     <lastmod>2024-01-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -4546,12 +4546,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/diffusion-imgtovideo</loc>
-    <lastmod>2024-01-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://ainsider.store/tools/pixelied</loc>
     <lastmod>2024-01-04</lastmod>
     <changefreq>weekly</changefreq>
@@ -4564,20 +4558,20 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/everart</loc>
-    <lastmod>2024-01-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://ainsider.store/tools/fireflies-ai</loc>
     <lastmod>2024-01-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/lexica</loc>
-    <lastmod>2024-01-03</lastmod>
+    <loc>https://ainsider.store/tools/everart</loc>
+    <lastmod>2024-01-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/diffusion-imgtovideo</loc>
+    <lastmod>2024-01-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -4594,8 +4588,32 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://ainsider.store/tools/lexica</loc>
+    <lastmod>2024-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://ainsider.store/tools/audiopen</loc>
     <lastmod>2024-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/looka</loc>
+    <lastmod>2024-01-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/blackbox</loc>
+    <lastmod>2024-01-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/picfinder</loc>
+    <lastmod>2024-01-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -4618,55 +4636,19 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/looka</loc>
-    <lastmod>2024-01-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://ainsider.store/tools/taskade</loc>
     <lastmod>2024-01-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/blackbox</loc>
-    <lastmod>2024-01-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/picfinder</loc>
-    <lastmod>2024-01-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/tldraw</loc>
+    <loc>https://ainsider.store/tools/dectopus</loc>
     <lastmod>2024-01-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/spline</loc>
-    <lastmod>2024-01-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/mailchimp</loc>
-    <lastmod>2024-01-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/filmora</loc>
-    <lastmod>2024-01-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/3dfy</loc>
+    <loc>https://ainsider.store/tools/promptpal</loc>
     <lastmod>2024-01-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -4684,6 +4666,30 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://ainsider.store/tools/tldraw</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/langchain</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/3dfy</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/filmora</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://ainsider.store/tools/rendercom</loc>
     <lastmod>2024-01-01</lastmod>
     <changefreq>weekly</changefreq>
@@ -4696,31 +4702,25 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/grammarly</loc>
-    <lastmod>2024-01-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/promptpal</loc>
-    <lastmod>2024-01-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/langchain</loc>
-    <lastmod>2024-01-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/dectopus</loc>
-    <lastmod>2024-01-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://ainsider.store/tools/openinterpreter</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/spline</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/mailchimp</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/grammarly</loc>
     <lastmod>2024-01-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -4732,13 +4732,19 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://ainsider.store/tools/loom</loc>
+    <lastmod>2023-12-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://ainsider.store/tools/opus-pro</loc>
     <lastmod>2023-12-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/loom</loc>
+    <loc>https://ainsider.store/tools/flair-ai</loc>
     <lastmod>2023-12-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -4750,8 +4756,38 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/flair-ai</loc>
-    <lastmod>2023-12-29</lastmod>
+    <loc>https://ainsider.store/tools/novelai</loc>
+    <lastmod>2023-12-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/stablediffusionweb</loc>
+    <lastmod>2023-12-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/tomeapp</loc>
+    <lastmod>2023-12-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/morph-studio</loc>
+    <lastmod>2023-12-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/hotpot</loc>
+    <lastmod>2023-12-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/jasperai</loc>
+    <lastmod>2023-12-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -4774,25 +4810,25 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/novelai</loc>
+    <loc>https://ainsider.store/tools/janitorai</loc>
     <lastmod>2023-12-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/tomeapp</loc>
+    <loc>https://ainsider.store/tools/google-bard</loc>
     <lastmod>2023-12-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/morph-studio</loc>
+    <loc>https://ainsider.store/tools/vocalremover</loc>
     <lastmod>2023-12-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/deepai</loc>
+    <loc>https://ainsider.store/tools/gamma-app</loc>
     <lastmod>2023-12-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -4822,50 +4858,8 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/google-bard</loc>
+    <loc>https://ainsider.store/tools/deepai</loc>
     <lastmod>2023-12-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/hotpot</loc>
-    <lastmod>2023-12-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/janitorai</loc>
-    <lastmod>2023-12-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/vocalremover</loc>
-    <lastmod>2023-12-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/stablediffusionweb</loc>
-    <lastmod>2023-12-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/gamma-app</loc>
-    <lastmod>2023-12-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/jasperai</loc>
-    <lastmod>2023-12-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/rebyte-ai</loc>
-    <lastmod>2023-12-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -4894,74 +4888,20 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/surferseo</loc>
-    <lastmod>2023-12-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://ainsider.store/tools/adcopy</loc>
     <lastmod>2023-12-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/aiprm</loc>
-    <lastmod>2023-12-24</lastmod>
+    <loc>https://ainsider.store/tools/surferseo</loc>
+    <lastmod>2023-12-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/neuralframes</loc>
-    <lastmod>2023-12-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/writesonic</loc>
-    <lastmod>2023-12-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/ideogram</loc>
-    <lastmod>2023-12-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/d-id</loc>
-    <lastmod>2023-12-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/ibm-watson</loc>
-    <lastmod>2023-12-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/diffmorpher</loc>
-    <lastmod>2023-12-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/blaze</loc>
-    <lastmod>2023-12-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/designer-gpt</loc>
-    <lastmod>2023-12-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/prompt-master-gpt</loc>
-    <lastmod>2023-12-24</lastmod>
+    <loc>https://ainsider.store/tools/rebyte-ai</loc>
+    <lastmod>2023-12-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -5014,6 +4954,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://ainsider.store/tools/aiprm</loc>
+    <lastmod>2023-12-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://ainsider.store/tools/framer</loc>
     <lastmod>2023-12-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -5050,7 +4996,85 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/instant-web-scraper</loc>
+    <loc>https://ainsider.store/tools/neuralframes</loc>
+    <lastmod>2023-12-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/writesonic</loc>
+    <lastmod>2023-12-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/prompt-master-gpt</loc>
+    <lastmod>2023-12-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/diffmorpher</loc>
+    <lastmod>2023-12-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/ibm-watson</loc>
+    <lastmod>2023-12-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/d-id</loc>
+    <lastmod>2023-12-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/ideogram</loc>
+    <lastmod>2023-12-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/blaze</loc>
+    <lastmod>2023-12-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/designer-gpt</loc>
+    <lastmod>2023-12-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/poecom</loc>
+    <lastmod>2023-12-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/perplexity</loc>
+    <lastmod>2023-12-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/merlinai</loc>
+    <lastmod>2023-12-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/midjourney</loc>
+    <lastmod>2023-12-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/huggingface</loc>
     <lastmod>2023-12-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -5062,7 +5086,43 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/huggingface</loc>
+    <loc>https://ainsider.store/tools/botpresscom</loc>
+    <lastmod>2023-12-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/instant-web-scraper</loc>
+    <lastmod>2023-12-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/clipdrop</loc>
+    <lastmod>2023-12-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/codedesign</loc>
+    <lastmod>2023-12-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/stabilityai</loc>
+    <lastmod>2023-12-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/streamlit</loc>
+    <lastmod>2023-12-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/makecom</loc>
     <lastmod>2023-12-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -5182,24 +5242,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/midjourney</loc>
-    <lastmod>2023-12-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/merlinai</loc>
-    <lastmod>2023-12-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/perplexity</loc>
-    <lastmod>2023-12-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://ainsider.store/tools/langflow</loc>
     <lastmod>2023-12-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -5254,91 +5296,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/poecom</loc>
-    <lastmod>2023-12-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/makecom</loc>
-    <lastmod>2023-12-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/streamlit</loc>
-    <lastmod>2023-12-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/stabilityai</loc>
-    <lastmod>2023-12-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/codedesign</loc>
-    <lastmod>2023-12-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/clipdrop</loc>
-    <lastmod>2023-12-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/botpresscom</loc>
-    <lastmod>2023-12-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/move-ai</loc>
-    <lastmod>2023-12-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/magnific</loc>
-    <lastmod>2023-12-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/monsterapi</loc>
-    <lastmod>2023-12-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/bardeen</loc>
-    <lastmod>2023-12-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/metaadsgpt</loc>
-    <lastmod>2023-12-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/commonsense</loc>
-    <lastmod>2023-12-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://ainsider.store/tools/notion</loc>
     <lastmod>2023-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/typeframesgpt</loc>
+    <loc>https://ainsider.store/tools/monsterapi</loc>
     <lastmod>2023-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -5392,13 +5356,55 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ainsider.store/tools/remix-ai</loc>
-    <lastmod>2023-12-21</lastmod>
+    <loc>https://ainsider.store/tools/move-ai</loc>
+    <lastmod>2023-12-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/commonsense</loc>
+    <lastmod>2023-12-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/metaadsgpt</loc>
+    <lastmod>2023-12-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/typeframesgpt</loc>
+    <lastmod>2023-12-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/magnific</loc>
+    <lastmod>2023-12-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/bardeen</loc>
+    <lastmod>2023-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ainsider.store/tools/capcut</loc>
+    <lastmod>2023-12-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/mistral</loc>
+    <lastmod>2023-12-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/remix-ai</loc>
     <lastmod>2023-12-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -5412,60 +5418,6 @@
   <url>
     <loc>https://ainsider.store/tools/replicate</loc>
     <lastmod>2023-12-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/mistral</loc>
-    <lastmod>2023-12-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/microsoft-loop</loc>
-    <lastmod>2023-12-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/claude-by-anthropic</loc>
-    <lastmod>2023-12-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/chatgpt</loc>
-    <lastmod>2023-12-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/10webio</loc>
-    <lastmod>2023-12-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/ifttt</loc>
-    <lastmod>2023-12-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/vercel-v0</loc>
-    <lastmod>2023-12-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/adobe-firefly</loc>
-    <lastmod>2023-12-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ainsider.store/tools/voiceflow</loc>
-    <lastmod>2023-12-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -5494,8 +5446,170 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://ainsider.store/tools/adobe-firefly</loc>
+    <lastmod>2023-12-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/microsoft-loop</loc>
+    <lastmod>2023-12-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/claude-by-anthropic</loc>
+    <lastmod>2023-12-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/ifttt</loc>
+    <lastmod>2023-12-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/chatgpt</loc>
+    <lastmod>2023-12-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/10webio</loc>
+    <lastmod>2023-12-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/voiceflow</loc>
+    <lastmod>2023-12-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/tools/vercel-v0</loc>
+    <lastmod>2023-12-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://ainsider.store/tools/autogen</loc>
     <lastmod>2023-11-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/docs/what-are-ai-agents</loc>
+    <lastmod>2026-02-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/docs/building-first-agent</loc>
+    <lastmod>2026-02-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/docs/agent-frameworks-comparison</loc>
+    <lastmod>2026-02-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/docs/multi-agent-systems</loc>
+    <lastmod>2026-02-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/docs/agent-memory-context</loc>
+    <lastmod>2026-02-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/docs/business-automation-basics</loc>
+    <lastmod>2026-02-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/docs/n8n-ai-workflows</loc>
+    <lastmod>2026-02-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/docs/zapier-ai-integration</loc>
+    <lastmod>2026-02-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/docs/make-ai-scenarios</loc>
+    <lastmod>2026-02-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/docs/document-processing-automation</loc>
+    <lastmod>2026-02-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/docs/image-generation-fundamentals</loc>
+    <lastmod>2026-02-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/docs/prompt-engineering-images</loc>
+    <lastmod>2026-02-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/docs/gemini-imagen-guide</loc>
+    <lastmod>2026-02-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/docs/video-generation-ai</loc>
+    <lastmod>2026-02-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/docs/ai-design-workflows</loc>
+    <lastmod>2026-02-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/docs/ai-agent-templates</loc>
+    <lastmod>2026-02-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/docs/flowise-guide</loc>
+    <lastmod>2026-02-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/docs/botpress-guide</loc>
+    <lastmod>2026-02-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainsider.store/docs/voiceflow-guide</loc>
+    <lastmod>2026-02-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
