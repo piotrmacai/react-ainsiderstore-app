@@ -11,6 +11,8 @@ import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { SEOHead } from '@/components/SEOHead';
 import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
+import remarkBreaks from 'remark-breaks';
 
 export default function ToolDetailPage() {
     const { slug } = useParams<{ slug: string }>();
@@ -159,7 +161,7 @@ export default function ToolDetailPage() {
                                 <section>
                                     <h2 className="text-lg font-semibold mb-3 text-foreground">About This Tool</h2>
                                     <div className="bg-secondary/30 rounded-lg p-4 md:p-6 prose prose-sm dark:prose-invert max-w-none prose-headings:text-foreground prose-p:text-muted-foreground prose-a:text-primary prose-strong:text-foreground prose-li:text-muted-foreground">
-                                        <ReactMarkdown>{tool.article}</ReactMarkdown>
+                                        <ReactMarkdown remarkPlugins={[remarkGfm, remarkBreaks]}>{tool.article}</ReactMarkdown>
                                     </div>
                                 </section>
                             )}
