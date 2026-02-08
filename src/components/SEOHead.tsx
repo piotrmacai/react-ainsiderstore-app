@@ -13,7 +13,7 @@ interface SEOHeadProps {
     prompt?: Prompt;
 }
 
-const BASE_URL = 'https://ainsider.store';
+const BASE_URL = 'https://ainsider.cloud';
 const DEFAULT_IMAGE = `${BASE_URL}/images/img.png`;
 const SITE_NAME = 'Ainsider Store';
 

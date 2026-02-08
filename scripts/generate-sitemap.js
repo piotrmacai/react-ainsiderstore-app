@@ -18,7 +18,7 @@ const supabaseUrl = 'https://zltkgdjyfzojirmppbex.supabase.co';
 const supabaseAnonKey = 'sb_publishable_ARsRgAYn1dpCuEOgtC0c1Q_XwMTUjBY';
 const supabase = createClient(supabaseUrl, supabaseAnonKey);
 
-const BASE_URL = 'https://ainsider.store';
+const BASE_URL = 'https://ainsider.cloud';
 
 // Slugify function (same as in the app)
 function slugify(text) {
