@@ -53,8 +53,8 @@ export function SEOHead({
     const canonicalUrl = pageUrl.startsWith('http') ? pageUrl : `${BASE_URL}${pageUrl}`;
 
     // Generate JSON-LD structured data
-    let structuredData: any = null;
-    let breadcrumbData: any = null;
+    let structuredData: unknown = null;
+    let breadcrumbData: unknown = null;
 
     if (tool) {
         structuredData = {

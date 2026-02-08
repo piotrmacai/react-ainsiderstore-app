@@ -9,7 +9,7 @@ interface DocCardProps {
 }
 
 export function DocCard({ article, onClick }: DocCardProps) {
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+
     const IconComponent = iconMap[article.icon as keyof typeof iconMap] || iconMap.FileText;
 
     return (
